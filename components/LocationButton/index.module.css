@@ -1,0 +1,58 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.LocationButtonContainer {
+  width: 218.75px;
+  height: 39.0625px;
+  border-radius: 7.8125px;
+  border: 1px solid #3B9ADA;
+  padding: 0px 16.40625px 0px 21.09375px;
+  background-color: white;
+}
+
+@media (max-width: 1600px) {
+  .LocationButtonContainer {
+    width: 218.75px;
+    height: 39.0625px;
+    padding: 0px 16.40625px 0px 21.09375px;
+  }
+}
+
+.LocationButtonContainer img {
+  width: 13.28125px;
+}
+
+@media (max-width: 1600px) {
+  .LocationButtonContainer img {
+    width: 13.28125px;
+  }
+}
+
+.LocationButtonContainer p {
+  font-size: 15.625px;
+  margin-left: 12.5px;
+  color: #3B9ADA;
+}
+
+@media (max-width: 1600px) {
+  .LocationButtonContainer p {
+    font-size: 15.625px;
+    margin-left: 12.5px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

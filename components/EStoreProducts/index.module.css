@@ -1,0 +1,262 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.EStoreProductsContainer {
+  padding-left: 25.78125px;
+}
+
+@media (max-width: 1600px) {
+  .EStoreProductsContainer {
+    padding-left: 25.78125px;
+  }
+}
+
+.EStoreProductsHeader {
+  top: 21.09375px;
+  z-index: 88;
+}
+
+.SearchDiv {
+  height: 39.0625px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 27.34375px;
+  padding-left: 17.96875px;
+  background-color: white;
+}
+
+@media (max-width: 1600px) {
+  .SearchDiv {
+    height: 39.0625px;
+    border-radius: 27.34375px;
+    padding-left: 17.96875px;
+  }
+}
+
+.SearchDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .SearchDiv img {
+    width: 18.75px;
+  }
+}
+
+.SearchDiv input {
+  margin-left: 15.625px;
+  font-size: 12.5px;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .SearchDiv input {
+    margin-left: 15.625px;
+    font-size: 12.5px;
+  }
+}
+
+.AddProductButton {
+  width: 157.03125px;
+  height: 39.0625px;
+  border-radius: 22.65625px;
+  background-color: #3B9ADA;
+  padding: 0px 15.3125px 0px 31.25px;
+  margin-left: 31.25px;
+}
+
+@media (max-width: 1600px) {
+  .AddProductButton {
+    width: 157.03125px;
+    height: 39.0625px;
+    border-radius: 22.65625px;
+    padding: 0px 15.3125px 0px 31.25px;
+    margin-left: 31.25px;
+  }
+}
+
+.AddProductButton p {
+  color: white;
+  font-size: 12.5px;
+  line-height: 13.75px;
+  margin-right: 7.15625px;
+}
+
+@media (max-width: 1600px) {
+  .AddProductButton p {
+    font-size: 12.5px;
+    line-height: 13.75px;
+    magin-right: 7.15625px;
+  }
+}
+
+.AddProductButton img {
+  width: 9.0625px;
+}
+
+@media (max-width: 1600px) {
+  .AddProductButton img {
+    width: 9.0625px;
+  }
+}
+
+.FilterDiv {
+  margin-left: 36.71875px;
+  width: 39.0625px;
+  height: 39.0625px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .FilterDiv {
+    margin-left: 36.71875px;
+    width: 39.0625px;
+    height: 39.0625px;
+  }
+}
+
+.FilterDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .FilterDiv img {
+    width: 18.75px;
+  }
+}
+
+.FilterDiv:hover {
+  background-color: #3B9ADA;
+}
+
+.FilterDiv:hover img {
+  -webkit-filter: brightness(0%) invert(100%);
+          filter: brightness(0%) invert(100%);
+}
+
+.FilterDiv:hover .DropdownDiv {
+  display: block;
+}
+
+.DropdownDiv {
+  display: none;
+  top: 100%;
+  background-color: white;
+  padding: 0px 20px 23px 20px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  z-index: 90;
+}
+
+@media (max-width: 1600px) {
+  .DropdownDiv {
+    top: 100%;
+    padding: 0px 15.625px 17.96875px 15.625px;
+    border-radius: 12.5px;
+  }
+}
+
+.DropdownDiv div p {
+  text-align: right;
+  font-size: 16px;
+  color: #6A7B86;
+  margin-top: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 1600px) {
+  .DropdownDiv div p {
+    font-size: 12.5px;
+    margin-top: 12.5px;
+  }
+}
+
+.DropdownDiv div .Active {
+  color: #F7941D;
+}
+
+.SortDiv {
+  margin-left: 36.71875px;
+  margin-right: 47.65625px;
+  width: 39.0625px;
+  height: 39.0625px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .SortDiv {
+    margin-left: 36.71875px;
+    width: 39.0625px;
+    height: 39.0625px;
+    margin-right: 47.65625px;
+  }
+}
+
+.SortDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .SortDiv img {
+    width: 18.75px;
+  }
+}
+
+.SortDiv:hover {
+  background-color: #3B9ADA;
+}
+
+.SortDiv:hover img {
+  -webkit-filter: brightness(0%) invert(100%);
+          filter: brightness(0%) invert(100%);
+}
+
+.SortDiv:hover .DropdownDiv {
+  display: block;
+}
+
+.EStoreProduct {
+  margin-top: 27.34375px;
+  padding-bottom: 32.03125px;
+}
+
+@media (max-width: 1600px) {
+  .EStoreProduct {
+    margin-top: 27.34375px;
+    padding-bottom: 32.03125px;
+  }
+}
+
+.EStoreProductCardDiv {
+  margin-right: 22.65625px;
+  margin-bottom: 27.34375px;
+}
+
+@media (max-width: 1600px) {
+  .EStoreProductCardDiv {
+    margin-right: 22.65625px;
+    margin-bottom: 27.34375px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

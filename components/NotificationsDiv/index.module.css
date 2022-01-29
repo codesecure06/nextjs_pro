@@ -1,0 +1,154 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NotificationsDivContainer {
+  padding: 21.09375px 26.5625px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationsDivContainer {
+    padding: 21.09375px 26.5625px;
+  }
+}
+
+.NotificationsDivContainer .NoNewNotifications {
+  font-size: 10.9375px;
+  color: #6A7B86;
+  margin-top: 15.625px;
+}
+
+.NotificationsDivHeader .Heading {
+  font-size: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationsDivHeader .Heading {
+    font-size: 18.75px;
+  }
+}
+
+.NotificationsDivHeader .HideNotificationsDiv img {
+  width: 31.25px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationsDivHeader .HideNotificationsDiv img {
+    width: 31.25px;
+  }
+}
+
+.Notification {
+  padding: 19.53125px;
+  background-color: white;
+  border-radius: 23.4375px;
+  margin-top: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .Notification {
+    padding: 19.53125px;
+    border-radius: 15.625px;
+    margin-top: 15.625px;
+  }
+}
+
+.NotificationHeader button {
+  height: 20.3125px;
+  padding: 0px 7.8125px;
+  border-radius: 46.09375px;
+  background-color: #3B9ADA;
+  color: white;
+  font-size: 10.15625px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .NotificationHeader button {
+    height: 20.3125px;
+    padding: 0px 7.8125px;
+    border-radius: 46.09375px;
+    font-size: 10.15625px;
+  }
+}
+
+.NotificationHeader img {
+  width: 9.375px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationHeader img {
+    width: 9.375px;
+  }
+}
+
+.NotificationDiv {
+  margin-top: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationDiv {
+    margin-top: 15.625px;
+  }
+}
+
+.NotificationDiv h2 {
+  font-size: 15.625px;
+  color: #09273C;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .NotificationDiv h2 {
+    font-size: 15.625px;
+  }
+}
+
+.NotificationDiv p {
+  color: rgba(9, 39, 60, 0.6);
+  font-size: 12.5px;
+  margin-top: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationDiv p {
+    font-size: 12.5px;
+    margin-top: 18.75px;
+  }
+}
+
+.DateDiv {
+  margin-top: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .DateDiv {
+    margin-top: 18.75px;
+  }
+}
+
+.DateDiv p {
+  color: rgba(9, 39, 60, 0.6);
+  font-size: 10.9375px;
+}
+
+@media (max-width: 1600px) {
+  .DateDiv p {
+    font-size: 10.9375px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

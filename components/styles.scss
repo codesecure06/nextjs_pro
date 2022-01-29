@@ -1,0 +1,56 @@
+@function c($size, $screen){
+    $convert_size: null;
+    @if($screen <= 1600){
+        $convert_size: $size / (1920 / 1500);
+    }
+    @if($screen <= 1440){
+        $convert_size: $size / (1920 / 1300);
+    }
+    @return #{$convert_size}px
+};
+@function con1($size){
+    $convert_size: null;
+    $convert_size: $size * 100 / 1920;
+    @return #{$convert_size}vw
+};
+@function con($size){
+    $convert_size: null;
+    $convert_size: $size / (1920 / 1500);
+    @return #{$convert_size}px
+};
+
+$blue: #3B9ADA;
+$light_blue: #CFEBFE;
+$very_light_blue: #E6F5FE;
+$orange: #F7941D;
+$light_orange: #FFF1E0;
+$red: #EB5757;
+$red2: #F94232;
+$light_red: #FEE4E1;
+$black: #09273C;
+$grey: #6A7B86;
+$grey1: #333333;
+$grey3: #828282;
+$green2: #27AE60;
+$light_green: #D5F6E3;
+$placeholder: rgba(106, 123, 134, 0.5);
+$box_shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+$fadeAnimation: 0.2s linear fadeIn;
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@mixin dropdown-opacity{
+    padding:con(12) con(18);
+    border-radius:con(10);
+    border:1px solid white;
+    background-color:rgba(128, 128, 128, 0.9);
+    top:calc(100% + con(5));
+    z-index:79;
+}

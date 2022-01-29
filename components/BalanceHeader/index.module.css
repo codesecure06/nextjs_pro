@@ -1,0 +1,82 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.BalanceHeaderContainer {
+  min-width: 132.03125px;
+}
+
+.BalanceHeaderContainer .WalletIcon {
+  width: 31.25px;
+  height: 31.25px;
+}
+
+@media (max-width: 1600px) {
+  .BalanceHeaderContainer .WalletIcon {
+    width: 31.25px;
+    height: 31.25px;
+  }
+}
+
+.BalanceHeaderContainer .BalanceDiv {
+  margin-left: 35.9375px;
+}
+
+.BalanceHeaderContainer .BalanceDiv .EIcon {
+  width: 11.71875px;
+  line-height: 31.63281px;
+  margin-top: -6.25px;
+}
+
+.BalanceHeaderContainer .BalanceDiv .ArrowIcon {
+  width: 18.75px;
+}
+
+.BalanceHeaderContainer .BalanceDiv p {
+  margin-left: 3.125px;
+  font-size: 18.75px;
+  line-height: 20.625px;
+  color: #27AE60;
+  font-weight: 600;
+}
+
+@media (max-width: 1600px) {
+  .BalanceHeaderContainer .BalanceDiv p {
+    margin-left: 3.125px;
+    font-size: 18.75px;
+    line-height: 20.625px;
+  }
+}
+
+.ExpireDiv {
+  margin-top: 1.5625px;
+  margin-left: 3.125px;
+}
+
+.ExpireDiv p {
+  font-size: 7.8125px;
+  line-height: 9.375px;
+  color: #09273C;
+}
+
+.ExpireDiv span {
+  color: #EB5757;
+  font-size: 9.375px;
+  line-height: 11.25px;
+  margin-left: 3.125px;
+}
+/*# sourceMappingURL=index.module.css.map */

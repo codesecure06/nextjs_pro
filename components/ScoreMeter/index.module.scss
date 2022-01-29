@@ -1,0 +1,159 @@
+@import '../styles.scss';
+
+.Score{
+    margin-bottom:22px;
+    @media(max-width:1600px){
+        margin-bottom:c(22, 1600);
+    }
+    font{
+        font-weight:500;
+        &:first-child{
+            color:$grey;
+            font-size:con(16);
+            line-height:con(17.6);
+            @media(max-width:1600px){
+                font-size:c(16, 1600);
+                line-height:c(17.6, 1600);
+            }
+            // @media(max-width:1440px){
+            //     font-size:c(16, 1440);
+            // }
+        }
+        &:last-child{
+            color:#37A444;
+            font-size:con(20);
+            margin-left:con(10);
+            line-height:con(22);
+            @media(max-width:1600px){
+                font-size:c(20, 1600);
+                margin-left:c(10, 1600);
+                line-height:c(22, 1600);
+            }
+            // @media(max-width:1440px){
+            //     font-size:c(20, 1440);
+            //     margin-left:c(10, 1440);
+            // }
+        }
+    }
+}
+.MeterContainer{
+    background-color:rgba(106, 123, 134, 0.05);
+    width:140px;
+    height:70px;
+    @media(max-width:1600px){
+        width:c(140, 1600);
+        height:c(70, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(140, 1440);
+    //     height:c(70, 1440);
+    // }
+}
+.MeterInner{
+    width:100px;
+    height:50px;
+    left:20px;
+    background-color:white;
+    box-shadow:0px 11.2782px 22.5564px rgba(0, 0, 0, 0.04), 0px 2.25564px 6.76692px rgba(0, 0, 0, 0.04), 0px 0px 1.12782px rgba(0, 0, 0, 0.04);
+    @media(max-width:1600px){
+        width:c(100, 1600);
+        height:c(50, 1600);
+        left:c(20, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(100, 1440);
+    //     height:c(50, 1440);
+    //     left:c(20, 1440);
+    // }
+    p{
+        color:rgba(0, 0, 0, 0.4);
+        font-size:11px;
+        text-align:center;
+        line-height:con(12.41);
+        margin-top:con(6.77);
+        @media(max-width:1600px){
+            font-size:c(11.28, 1600);
+            line-height:c(12.41, 1600);
+            margin-top:c(6.77, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(11, 1440);
+        // }
+    }
+    h2{
+        font-size:22.56px;
+        font-weight:700;
+        text-align:center;
+        margin-top:-5px;
+        @media(ma-width:1600px){
+            font-size:c(22.56, 1600);
+            margin-top:c(-5, 1600);
+            line-height:c(24.81, 1600);
+        }
+        // @media(ma-width:1440px){
+        //     font-size:c(22, 1440);
+        //     margin-top:c(-5, 1440);
+        // }
+    }
+}
+.Meter{
+    width:140px;
+    height:140px;
+    border:4px solid;
+    border-left-color:rgba(106, 123, 134, 0.1);
+    border-top-color:rgba(106, 123, 134, 0.1);
+    border-right-color:$blue;
+    border-bottom-color:$blue;
+    @media(max-width:1600px){
+        width:c(140, 1600);
+        height:c(140, 1600);
+        border:c(4, 1600) solid;
+        border-left-color:rgba(106, 123, 134, 0.1);
+        border-top-color:rgba(106, 123, 134, 0.1);
+        border-right-color:$blue;
+        border-bottom-color:$blue;
+    }
+    // @media(max-width:1440px){
+    //     width:c(140, 1440);
+    //     height:c(140, 1440);
+    // }
+}
+.MeterCircle{
+    width:13px;
+    height:6px;
+    background-color:$orange;
+    border-radius:21px;
+    margin-left:13.5px;
+    margin-bottom:13.5px;
+    border:1px solid white;
+    position:relative;
+    z-index:90;
+    transform:rotateZ(43deg);
+    @media(max-width:1600px){
+        margin-left:c(12, 1600);
+        margin-bottom:c(12, 1600);
+    }
+    // @media(max-width:1440px){
+    //     margin-left:c(10, 1440);
+    //     margin-bottom:c(10, 1440);
+    // }
+}
+.ValuesDiv{
+    margin-top:5px;
+    @media(max-width:1600px){
+        margin-top:c(5, 1600);
+    }
+    // @media(max-width:1440px){
+    //     margin-top:c(5, 1440);
+    // }
+    p{
+        color:rgba(0, 0, 0, 0.4);
+        font-size:11px;
+        @media(ma-width:1600px){
+            font-size:c(11, 1600);
+        }
+        // @media(ma-width:1440px){
+        //     font-size:c(11, 1440)
+        // }
+    }
+}

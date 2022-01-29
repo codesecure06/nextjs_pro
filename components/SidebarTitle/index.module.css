@@ -1,0 +1,52 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.SidebarTitleContainer {
+  margin-top: 30.46875px;
+  margin-bottom: 3.125px;
+  padding-left: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .SidebarTitleContainer {
+    margin-top: 30.46875px;
+    magrin-bottom: 3.125px;
+    padding-left: 15.625px;
+  }
+}
+
+.SidebarTitleContainer p {
+  font-size: 10.9375px;
+  margin-right: 7.8125px;
+  color: #6A7B86;
+  letter-spacing: 1.5625px;
+}
+
+@media (max-width: 1600px) {
+  .SidebarTitleContainer p {
+    font-size: 10.9375px;
+    margin-right: 7.8125px;
+    letter-spacing: 1.5625px;
+  }
+}
+
+.LineDiv {
+  height: 1px;
+  background: -webkit-linear-gradient(left, rgba(106, 123, 134, 0.5), rgba(106, 123, 134, 0));
+}
+/*# sourceMappingURL=index.module.css.map */

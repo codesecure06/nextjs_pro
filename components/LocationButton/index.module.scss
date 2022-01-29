@@ -1,0 +1,42 @@
+@import '../styles.scss';
+
+.LocationButtonContainer{
+    width:con(280);
+    height:con(50);
+    border-radius:con(10);
+    border:1px solid $blue;
+    padding:0px con(21) 0px con(27);
+    background-color:white;
+    @media(max-width:1600px){
+        width:c(280, 1600);
+        height:c(50, 1600);
+        padding:0px c(21, 1600) 0px c(27, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(280, 1440);
+    //     height:c(50, 1440);
+    //     padding:0px c(21, 1440) 0px c(27, 1440);
+    // }
+    img{
+        width:con(17);
+        @media(max-width:1600px){
+            width:c(17, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(17, 1440);
+        // }
+    }
+    p{
+        font-size:con(20);
+        margin-left:con(16);
+        color:$blue;
+        @media(max-width:1600px){
+            font-size:c(20, 1600);
+            margin-left:c(16, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(20, 1440);
+        //     margin-left:c(16, 1440);
+        // }
+    }
+}

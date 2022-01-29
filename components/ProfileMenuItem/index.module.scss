@@ -1,0 +1,34 @@
+@import '../styles.scss';
+
+.ProfileMenuItemContainer{
+	padding:con(11) 0px con(11) con(36);
+	@media(max-width:1600px){
+		padding:c(11, 1600) 0px c(11, 1600) c(36, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	padding:c(11, 1440) 0px c(11, 1440) c(36, 1440);
+	// }
+	.IconDiv{
+		img{
+			width:con(24);
+			@media(max-width:1600px){
+				width:c(24, 1600);
+			}
+			// @media(max-width:1440px){
+			// 	width:c(19, 1440);
+			// }
+		}
+	}
+	.TitleDiv{
+		font-size:con(20);
+		color:$black;
+		line-height:con(22);
+		@media(max-width:1600px){
+			font-size:c(20, 1600);
+			line-height:c(22, 1600);
+		}
+		// @media(max-width:1440px){
+		// 	font-size:c(20, 1440);
+		// }
+	}
+}

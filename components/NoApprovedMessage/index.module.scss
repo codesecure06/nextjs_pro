@@ -1,0 +1,13 @@
+@import '../styles.scss';
+
+.NoApprovedMessageContainer{
+    padding:con(20) 0px;
+    p{
+        font-size:con(17);
+        color:$grey;
+        span{
+            color:$blue;
+            font-weight:500;
+        }
+    }
+}

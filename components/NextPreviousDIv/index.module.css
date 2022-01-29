@@ -1,0 +1,221 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.PreviousDiv {
+  width: 33.59375px;
+  height: 26.5625px;
+  border-radius: 13.28125px 3.90625px 3.90625px 13.28125px;
+  background-color: #CFEBFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv {
+    width: 33.59375px;
+    height: 26.5625px;
+  }
+}
+
+.PreviousDiv img {
+  width: 6.25px;
+  margin-right: 24.21875px;
+  margin-left: 14.0625px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv img {
+    width: 6.25px;
+    margin-right: 24.21875px;
+    margin-left: 14.0625px;
+  }
+}
+
+.PreviousDiv span {
+  color: #3B9ADA;
+  margin-right: 7.8125px;
+  font-size: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv span {
+    margin-right: 7.8125px;
+    font-size: 12.5px;
+  }
+}
+
+.PreviousDiv:hover {
+  width: 104.6875px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv:hover {
+    width: 104.6875px;
+  }
+}
+
+.PreviousDiv:hover + .NextDiv {
+  width: 33.59375px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv:hover + .NextDiv {
+    width: 33.59375px;
+  }
+}
+
+.PreviousDiv:hover + .NextDiv span {
+  display: none;
+}
+
+.PreviousDiv:hover + .NextDiv img {
+  margin-right: 8.59375px;
+  margin-left: 14.0625px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv:hover + .NextDiv img {
+    margin-right: 8.59375px;
+    margin-left: 14.0625px;
+  }
+}
+
+.PreviousDiv:hover + .SaveDiv {
+  width: 33.59375px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv:hover + .SaveDiv {
+    width: 33.59375px;
+  }
+}
+
+.PreviousDiv:hover + .SaveDiv span {
+  display: none;
+}
+
+.PreviousDiv:hover + .SaveDiv img {
+  margin-right: 8.59375px;
+  margin-left: 14.0625px;
+}
+
+@media (max-width: 1600px) {
+  .PreviousDiv:hover + .SaveDiv img {
+    margin-right: 8.59375px;
+    margin-left: 14.0625px;
+  }
+}
+
+.NextDiv {
+  width: 104.6875px;
+  height: 26.5625px;
+  border-radius: 3.90625px 13.28125px 13.28125px 3.90625px;
+  border: 0.78125px solid #3B9ADA;
+  background-color: #3B9ADA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6.25px;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+@media (max-width: 1600px) {
+  .NextDiv {
+    width: 104.6875px;
+    height: 26.5625px;
+    margin-left: 6.25px;
+  }
+}
+
+.NextDiv img {
+  width: 6.25px;
+  margin-right: 25.78125px;
+}
+
+@media (max-width: 1600px) {
+  .NextDiv img {
+    width: 6.25px;
+    margin-right: 25.78125px;
+  }
+}
+
+.NextDiv span {
+  margin-left: 19.53125px;
+  color: white;
+  font-size: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .NextDiv span {
+    margin-left: 19.53125px;
+    font-size: 12.5px;
+  }
+}
+
+.SaveDiv {
+  width: 104.6875px;
+  height: 26.5625px;
+  border-radius: 3.90625px 13.28125px 13.28125px 3.90625px;
+  border: 0.78125px solid #3B9ADA;
+  background-color: #3B9ADA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6.25px;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+@media (max-width: 1600px) {
+  .SaveDiv {
+    width: 104.6875px;
+    height: 26.5625px;
+    margin-left: 6.25px;
+  }
+}
+
+.SaveDiv img {
+  width: 11.42188px;
+  margin-right: 25.78125px;
+}
+
+@media (max-width: 1600px) {
+  .SaveDiv img {
+    width: 11.42188px;
+    margin-right: 25.78125px;
+  }
+}
+
+.SaveDiv span {
+  margin-left: 19.53125px;
+  color: white;
+  font-size: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .SaveDiv span {
+    margin-left: 19.53125px;
+    font-size: 12.5px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,45 @@
+@import '../styles.scss';
+
+.CompletedPopupContainer{
+    display:none;
+    width:con(347);
+    background-color:white;
+    border-radius:con(16);
+    padding:con(30) con(48) con(53) con(47);
+    z-index:100;
+    img{
+        width:con(252);
+    }
+    .Heading{
+        margin-top:con(18);
+        p{
+            font-size:con(20);
+            font-weight:500;
+            line-height:con(22);
+            margin-left:con(24);
+        }
+        img{
+            width:con(24);
+            margin-left:con(10);
+        }
+    }
+    .Description{
+        margin-top:con(16);
+        font-size:con(12);
+        line-height:con(18);
+        color:$grey;
+        letter-spacing:con(1);
+        font-weight:400;
+    }
+    .Button{
+        height:con(33);
+        padding:0px con(30);
+        margin-top:con(22);
+        background-color:$blue;
+        color:white;
+        border-radius:con(8);
+        font-size:con(16);
+        line-height:con(17.6);
+        font-weight:500;
+    }
+}

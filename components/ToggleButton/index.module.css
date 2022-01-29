@@ -1,0 +1,75 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ToggleContainer .ToggleContainerDiv {
+  width: 41.40625px;
+  height: 21.875px;
+  border-radius: 21.09375px;
+  background-color: #6A7B86;
+  -webkit-box-shadow: inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2 linear;
+  transition: all 0.2 linear;
+}
+
+@media (max-width: 1600px) {
+  .ToggleContainer .ToggleContainerDiv {
+    width: 41.40625px;
+    height: 21.875px;
+  }
+}
+
+.ToggleContainer input {
+  display: none;
+}
+
+.ToggleContainer input:checked + .ToggleContainerDiv {
+  background-color: #56D09A;
+}
+
+.ToggleContainer input:checked + .ToggleContainerDiv .Circle {
+  left: 21.09375px;
+}
+
+@media (max-width: 1600px) {
+  .ToggleContainer input:checked + .ToggleContainerDiv .Circle {
+    left: 21.09375px;
+  }
+}
+
+.ToggleContainer .Circle {
+  width: 18.75px;
+  height: 18.75px;
+  border: 3.125px solid white;
+  border-radius: 50%;
+  left: 1.5625px;
+  top: 1.79687px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .ToggleContainer .Circle {
+    width: 18.75px;
+    height: 18.75px;
+    left: 1.5625px;
+    top: 1.79687px;
+    border: 3.125px solid white;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

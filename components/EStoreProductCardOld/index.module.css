@@ -1,0 +1,507 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.EStoreProductCardContainer {
+  width: 300px;
+  padding: 3.90625px;
+  border-radius: 11.71875px;
+  -webkit-box-shadow: 0px 9.57031px 19.1406px rgba(0, 0, 0, 0.04), 0px 1.91406px 5.74219px rgba(0, 0, 0, 0.04), 0px 0px 0.95703px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 9.57031px 19.1406px rgba(0, 0, 0, 0.04), 0px 1.91406px 5.74219px rgba(0, 0, 0, 0.04), 0px 0px 0.95703px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .EStoreProductCardContainer {
+    width: 300px;
+    padding: 3.90625px;
+    border-radius: 11.71875px;
+  }
+}
+
+.LessLabel {
+  background: -webkit-linear-gradient(top, #EB5757, #FFFFFF);
+}
+
+.MediumLabel {
+  background: -webkit-linear-gradient(top, #FFC501, #FFFFFF);
+}
+
+.HighLabel {
+  background: -webkit-linear-gradient(top, #27AE60, #FFFFFF);
+}
+
+.EStoreProductCard {
+  background-color: white;
+  border-radius: 7.8125px;
+  padding: 0px 9.375px;
+}
+
+@media (max-width: 1600px) {
+  .EStoreProductCard {
+    border-radius: 7.8125px;
+    padding: 0px 9.375px;
+  }
+}
+
+.CardHeader {
+  padding: 10.9375px 0px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader {
+    padding: 10.9375px 0px;
+  }
+}
+
+.CardHeader .ProductNameDiv {
+  margin-left: 5.46875px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .ProductNameDiv {
+    margin-left: 5.46875px;
+  }
+}
+
+.CardHeader .ProductNameDiv h2 {
+  font-size: 14.84375px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .ProductNameDiv h2 {
+    font-size: 14.84375px;
+  }
+}
+
+.CardHeader .StockButtonDiv {
+  margin-right: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .StockButtonDiv {
+    margin-right: 7.8125px;
+  }
+}
+
+.CardHeader .StockButtonDiv button {
+  background-color: #FFF1E0;
+  border-radius: 23.4375px;
+  color: #F7941D;
+  padding: 0px 9.375px;
+  height: 18.75px;
+  font-size: 10.15625px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .StockButtonDiv button {
+    padding: 0px 9.375px;
+    height: 18.75px;
+    font-size: 10.15625px;
+  }
+}
+
+.CardHeader .StockButtonDiv button p {
+  font-size: 10.46875px;
+  line-height: 11.51562px;
+  margin-left: 6.25px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .StockButtonDiv button p {
+    font-size: 10.46875px;
+    line-height: 11.51562px;
+    margin-left: 6.25px;
+  }
+}
+
+.CardHeader .StockButtonDiv button img {
+  width: 11.96094px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .StockButtonDiv button img {
+    width: 11.96094px;
+  }
+}
+
+.CardHeader .ProductStatus img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .ProductStatus img {
+    width: 18.75px;
+  }
+}
+
+.CardHeader .MenuDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .CardHeader .MenuDiv img {
+    width: 18.75px;
+  }
+}
+
+.ImageDiv {
+  height: 224.21875px;
+  border-radius: 5.46875px;
+  background-color: #F0F0F0;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv {
+    height: 224.21875px;
+    border-radius: 5.46875px;
+  }
+}
+
+.ImageDiv::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background: linear-gradient(179.9deg, rgba(59, 154, 218, 0) 50%, #FFECD7 118.88%);
+  z-index: 20;
+}
+
+.ImageDiv .ImagesDiv {
+  padding: 0px 14.0625px 14.0625px 14.0625px;
+  z-index: 21;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv .ImagesDiv {
+    padding: 0px 14.0625px 14.0625px 14.0625px;
+  }
+}
+
+.ImageDiv .SmallImageDiv {
+  width: 36.71875px;
+  height: 36.71875px;
+  border-radius: 5.46875px;
+  margin-left: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv .SmallImageDiv {
+    width: 36.71875px;
+    height: 36.71875px;
+    border-radius: 5.46875px;
+    margin-left: 15.625px;
+  }
+}
+
+.ImageDiv .SmallImageDiv .Gradient {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-42%, #000000), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #000000 -42%, rgba(255, 255, 255, 0) 100%);
+}
+
+.ImageDiv .SmallImageDiv .RemoveDiv {
+  width: 36.71875px;
+  height: 36.71875px;
+  border-radius: 5.46875px;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv .SmallImageDiv .RemoveDiv {
+    width: 36.71875px;
+    height: 36.71875px;
+    border-radius: 5.46875px;
+  }
+}
+
+.ImageDiv .SmallImageDiv .RemoveDiv img {
+  width: 10.15625px;
+  top: 1.5625px;
+  right: 2.34375px;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv .SmallImageDiv .RemoveDiv img {
+    width: 10.15625px;
+    top: 1.5625px;
+    right: 2.34375px;
+  }
+}
+
+.ImageDiv .AddImageDiv {
+  width: 36.71875px;
+  height: 36.71875px;
+  background-color: #3B9ADA;
+  border-radius: 5.46875px;
+}
+
+@media (max-width: 1600px) {
+  .ImageDiv .AddImageDiv {
+    width: 36.71875px;
+    height: 36.71875px;
+    border-radius: 5.46875px;
+  }
+}
+
+.ImageDiv .AddImageDiv input {
+  display: none;
+}
+
+.DetailsDiv {
+  padding: 15.625px 0px 7.03125px 0px;
+}
+
+@media (max-width: 1600px) {
+  .DetailsDiv {
+    padding: 15.625px 0px 7.03125px 0px;
+  }
+}
+
+.InputDiv {
+  width: 94.39844px;
+  height: 27.34375px;
+  padding: 0px 7.03125px;
+  border: 1px solid rgba(106, 123, 134, 0.2);
+}
+
+@media (max-width: 1600px) {
+  .InputDiv {
+    width: 94.39844px;
+    height: 27.34375px;
+    padding: 0px 7.03125px;
+    border: 0.78125px solid rgba(106, 123, 134, 0.2);
+  }
+}
+
+.InputDiv input {
+  margin-left: 4.6875px;
+  font-weight: 500;
+  font-size: 11.71875px;
+  width: 100%;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv input {
+    margin-left: 4.6875px;
+    font-size: 11.71875px;
+  }
+}
+
+.InputDiv input::-webkit-outer-spin-button, .InputDiv input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.InputDiv p {
+  font-size: 11.71875px;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv p {
+    font-size: 11.71875px;
+  }
+}
+
+.To {
+  width: 25px;
+  font-size: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .To {
+    width: 25px;
+    font-size: 12.5px;
+  }
+}
+
+.Select {
+  width: 59.8125px;
+  height: 27.34375px;
+  padding: 0px 10.9375px;
+  border: 0.78125px solid rgba(106, 123, 134, 0.2);
+  border-left: none;
+  font-size: 11.96094px;
+  line-height: 13.15625px;
+  -webkit-appearance: none;
+  background-image: url("/dashboard/images/icons/down-arrow-grey.svg");
+  background-size: 7.8125px auto;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  color: #6A7B86;
+}
+
+@media (max-width: 1600px) {
+  .Select {
+    width: 59.8125px;
+    height: 27.34375px;
+    padding: 0px 10.9375px;
+    font-size: 11.96094px;
+    line-height: 13.15625px;
+    background-size: 7.8125px;
+  }
+}
+
+.ProductSelectDiv {
+  margin-top: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .ProductSelectDiv {
+    margin-top: 12.5px;
+  }
+}
+
+.ProductSelectDiv .ProductSelect {
+  outline: none;
+  width: 100%;
+  height: 25.78125px;
+  padding: 0px 10.9375px;
+  border: 1px solid rgba(106, 123, 134, 0.2);
+  border-radius: 5.46875px;
+  font-size: 10.46875px;
+  line-height: 11.51562px;
+  font-weight: 500;
+  -webkit-appearance: none;
+  background-image: url("/dashboard/images/icons/down-arrow-grey.svg");
+  background-size: 10px auto;
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  color: #09273C;
+}
+
+@media (max-width: 1600px) {
+  .ProductSelectDiv .ProductSelect {
+    height: 25.78125px;
+    padding: 0px 10.9375px;
+    border-radius: 5.46875px;
+    font-size: 10.46875px;
+    line-height: 11.51562px;
+  }
+}
+
+.ProductSelectDiv .ProductSelect:focus {
+  border: 1px solid #3B9ADA;
+  -webkit-box-shadow: 0px 0px 5px rgba(59, 154, 218, 0.5);
+          box-shadow: 0px 0px 5px rgba(59, 154, 218, 0.5);
+}
+
+.TagsDiv {
+  margin-top: 16.40625px;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv {
+    margin-top: 16.40625px;
+  }
+}
+
+.TagsDiv .PlusDiv {
+  width: 22.65625px;
+  height: 22.65625px;
+  border-radius: 50%;
+  border: 1px solid #6A7B86;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv .PlusDiv {
+    width: 22.65625px;
+    height: 22.65625px;
+  }
+}
+
+.TagsDiv .PlusDiv img {
+  width: 7.03125px;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv .PlusDiv img {
+    width: 7.03125px;
+  }
+}
+
+.TagsDiv .TagsButton {
+  height: 27.34375px;
+  padding: 0px 4.6875px 0px 15.625px;
+  border-radius: 34.375px;
+  margin-bottom: 7.03125px;
+  margin-left: 6.25px;
+  background-color: #CFEBFE;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv .TagsButton {
+    height: 27.34375px;
+    padding: 0px 4.6875px 0px 15.625px;
+    margin-bottom: 7.03125px;
+    margin-left: 6.25px;
+  }
+}
+
+.TagsDiv .TagsButton p {
+  margin-right: 3.90625px;
+  font-size: 10.9375px;
+  color: #3B9ADA;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv .TagsButton p {
+    margin-right: 3.90625px;
+    font-size: 10.9375px;
+  }
+}
+
+.TagsDiv .TagsButton img {
+  width: 20.3125px;
+}
+
+@media (max-width: 1600px) {
+  .TagsDiv .TagsButton img {
+    width: 20.3125px;
+  }
+}
+
+.TagsDiv .ActiveTag {
+  background-color: #CFEBFE;
+  border: 1px solid #3B9ADA;
+}
+
+.TagsDiv .ActiveTag p {
+  color: #3B9ADA;
+}
+
+.ProductDetailedScoreDiv {
+  width: 139.0625px;
+  background-color: rgba(128, 128, 128, 0.9);
+  border-radius: 7.8125px;
+  padding: 4.6875px 7.8125px;
+  z-index: 99;
+}
+
+.ProductDetailedScoreDiv .ScoreDiv p {
+  color: white;
+  font-size: 10.9375px;
+  line-height: 18.59375px;
+  font-weight: 500;
+}
+
+.ProductDetailedScoreDiv .ScoreDiv p font {
+  color: #6FCF97;
+}
+/*# sourceMappingURL=index.module.css.map */

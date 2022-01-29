@@ -1,0 +1,72 @@
+@import '../styles.scss';
+
+.LabelContainer{
+    height:con(50);
+    border:con(1) solid rgba(106, 123, 134, 0.1);
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius:con(8);
+    @media(max-width:1600px){
+        height:c(50, 1600);
+        border:c(1, 1600) solid rgba(106, 123, 134, 0.1);
+        border-radius:c(8, 1600);
+    }
+    .IconDiv{
+        width:con(50);
+        height:con(50);
+        background-color:rgba(106, 123, 134, 0.2);
+        border-radius:con(8) 0px 0px con(8);
+        @media(max-width:1600px){
+            width:c(50, 1600);
+            height:c(50, 1600);
+            border-radius:c(8, 1600) 0px 0px c(8, 1600);
+        }
+        p{
+            font-size:con(20);
+            line-height:con(22);
+            color:black;
+            opacity:0.5;
+            margin-top:con(4);
+        }
+    }
+    input{
+        font-size:con(14);
+        line-height:con(15);
+        color:rgba(10, 123, 134, 0.3);
+        margin-left:con(10);
+        @media(max-width:1600px){
+            font-size:c(14, 1600);
+            line-height:c(15, 1600);
+            margin-left:c(10, 1600);
+        }
+    }
+    .NoIcon{
+        margin-left:con(20);
+        @media(max-width:1600px){
+            margin-left:c(20, 1600);
+        }
+    }
+    select{
+        width:con(100);
+        height:con(50);
+        background-color:rgba(106, 123, 134, 0.2);
+        border-radius:0px con(8) con(8) 0px;
+        font-size:con(16);
+        font-weight:500;
+        padding:0px con(11) 0px con(23);
+        -webkit-appearance:none;
+        background-image:url('/dashboard/images/icons/chevron-down-grey.svg');
+        background-size:con(24);
+        background-position:con(71) 50%;
+        background-repeat:no-repeat;
+        color:rgba(0, 0, 0, 0.5);
+        @media(max-width:1600px){
+            width:c(100, 1600);
+            height:c(50, 1600);
+            border-radius:0px c(8, 1600) c(8, 1600) 0px;
+            font-size:c(16, 1600);
+            padding:0px c(11, 1600) 0px c(23, 1600);
+            background-size:c(24, 1600);
+            background-position:c(71, 1600) 50%;
+        }
+    }
+}

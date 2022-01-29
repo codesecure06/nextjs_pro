@@ -1,0 +1,56 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.LabelContainer {
+  width: 15.625px;
+  height: 15.625px;
+  border: 2.34375px solid #F7941D;
+  border-radius: 50%;
+}
+
+.LabelContainer input {
+  display: none;
+}
+
+.LabelContainer input:checked + .CheckedCircle {
+  display: block;
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer {
+    width: 15.625px;
+    height: 15.625px;
+    border: 2.34375px solid #F7941D;
+  }
+}
+
+.CheckedCircle {
+  display: none;
+  width: 7.8125px;
+  height: 7.8125px;
+  background-color: #F7941D;
+  border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+  .CheckedCircle {
+    width: 7.8125px;
+    height: 7.8125px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

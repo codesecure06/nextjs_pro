@@ -1,0 +1,32 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NoApprovedMessageContainer {
+  padding: 15.625px 0px;
+}
+
+.NoApprovedMessageContainer p {
+  font-size: 13.28125px;
+  color: #6A7B86;
+}
+
+.NoApprovedMessageContainer p span {
+  color: #3B9ADA;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.module.css.map */

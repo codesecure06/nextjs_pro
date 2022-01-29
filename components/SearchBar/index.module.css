@@ -1,0 +1,55 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.SearchBar {
+  background-color: #F6F6F6;
+  width: 521.875px;
+  height: 39.0625px;
+  padding: 0px 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .SearchBar {
+    width: 521.875px;
+    height: 39.0625px;
+    padding: 0px 18.75px;
+  }
+}
+
+.SearchBar img {
+  width: 27.34375px;
+}
+
+@media (max-width: 1600px) {
+  .SearchBar img {
+    width: 27.34375px;
+  }
+}
+
+.SearchBar input {
+  font-size: 12.5px;
+  margin-left: 29.6875px;
+}
+
+@media (max-width: 1600px) {
+  .SearchBar input {
+    margin-left: 29.6875px;
+    font-size: 12.5px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,52 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.MainDiv {
+  height: calc(100vh - con(112));
+}
+
+@media (max-width: 1600px) {
+  .MainDiv {
+    height: calc(100vh - c(112, 1600));
+  }
+}
+
+.DashboardContainer {
+  height: calc(100vh - con(112));
+  background-color: #F2F2F2;
+}
+
+@media (max-width: 1600px) {
+  .DashboardContainer {
+    height: calc(100vh - c(112, 1600));
+  }
+}
+
+.NotificationDiv {
+  width: 317.96875px;
+  background-color: #CFEBFE;
+  height: calc(100vh - con(112));
+}
+
+@media (max-width: 1600px) {
+  .NotificationDiv {
+    width: 317.96875px;
+    height: calc(100vh - c(112, 1600));
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,37 @@
+@import '../styles.scss';
+
+.SidebarTitleContainer{
+    margin-top:con(39);
+    margin-bottom:con(4);
+    padding-left:con(20);
+    @media(max-width:1600px){
+        margin-top:c(39, 1600);
+        magrin-bottom:c(4, 1600);
+        padding-left:c(20, 1600);
+    }
+    // @media(max-width:1440px){
+    //     margin-top:c(39, 1440);
+    //     margin-bottom:c(4, 1440);
+    //     padding-left:c(10, 1440);
+    // }
+    p{
+        font-size:con(14);
+        margin-right:con(10);
+        color:$grey;
+        letter-spacing:con(2);
+        @media(max-width:1600px){
+            font-size:c(14, 1600);
+            margin-right:c(10, 1600);
+            letter-spacing:c(2, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(14, 1440);
+        //     margin-right:c(10, 1440);
+        //     lette-spacing:c(2, 1440);
+        // }
+    }
+}
+.LineDiv{
+    height:1px;
+    background:-webkit-linear-gradient(left, $placeholder, rgba(106, 123, 134, 0));
+}

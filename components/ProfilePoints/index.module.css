@@ -1,0 +1,44 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Heading {
+  font-size: 12.5px;
+  color: #09273C;
+  line-height: 13.75px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .Heading {
+    font-size: 12.5px;
+  }
+}
+
+.Score {
+  font-size: 20.3125px;
+  color: #F7941D;
+  line-height: 22.34375px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .Score {
+    font-size: 20.3125px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

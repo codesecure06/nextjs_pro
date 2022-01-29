@@ -1,0 +1,80 @@
+@import '../styles.scss';
+
+.RemoveButton{
+    height:con(50);
+    border-radius:con(10);
+    border:1px solid #FE4028;
+    transition:all 0.2s linear;
+    padding:0px con(17) 0px con(13);
+    transition:all 0.2s linear;
+    &:hover:not(.RemoveActive){
+        background-color:#FE4028;
+        .Text{
+            color:white;
+        }
+        .RemoveIcon{
+            transform:rotateZ(180deg);
+            filter:brightness(0) invert(1);
+        }
+    }
+    @media(max-width:1600px){
+        height:c(50, 1600);
+        padding:0px c(17, 1600) 0px c(13, 1600);
+    }
+    // @media(max-width:1440px){
+    //     height:c(50, 1440);
+    //     padding:0px c(17, 1440) 0px c(13, 1440);
+    // }
+    p{
+        font-size:con(16);
+        font-weight:500;
+        color:#F94232;
+        margin-right:con(14);
+        @media(max-width:1600px){
+            font-size:c(16, 1600);
+            margin-right:c(14, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(16, 1440);
+        //     margin-right:c(14, 1440);
+        // }
+    }
+    img{
+        width:con(16);
+        transition:all 0.2s linear;
+        @media(max-width:1600px){
+            width:c(16, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(16, 1440);
+        // }
+    }
+    .ConfirmText{
+        margin-right:con(42);
+        @media(max-width:1600px){
+            margin-right:c(42, 1600);
+        }
+    }
+    .ConfirmDiv{
+        margin-right:con(17);
+        @media(max-width:1600px){
+            margin-right:c(17, 1600);
+        }
+        img{
+            width:con(24);
+            transition:all 0.2s linear;
+            @media(max-width:1600px){
+                width:c(24, 1600);
+            }
+            // @media(max-width:1440px){
+            //     width:c(16, 1440);
+            // }
+        }
+    }
+}
+.RemoveActive{
+    width:con(258);
+    @media(max-width:1600px){
+        width:c(258, 1600);
+    }
+}

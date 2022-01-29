@@ -1,0 +1,51 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ProfileMenuItemContainer {
+  padding: 8.59375px 0px 8.59375px 28.125px;
+}
+
+@media (max-width: 1600px) {
+  .ProfileMenuItemContainer {
+    padding: 8.59375px 0px 8.59375px 28.125px;
+  }
+}
+
+.ProfileMenuItemContainer .IconDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .ProfileMenuItemContainer .IconDiv img {
+    width: 18.75px;
+  }
+}
+
+.ProfileMenuItemContainer .TitleDiv {
+  font-size: 15.625px;
+  color: #09273C;
+  line-height: 17.1875px;
+}
+
+@media (max-width: 1600px) {
+  .ProfileMenuItemContainer .TitleDiv {
+    font-size: 15.625px;
+    line-height: 17.1875px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

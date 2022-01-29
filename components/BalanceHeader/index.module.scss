@@ -1,0 +1,51 @@
+@import '../styles.scss';
+
+.BalanceHeaderContainer{
+	min-width:con(169);
+	.WalletIcon{
+		width:con(40);
+		height:con(40);
+		@media(max-width:1600px){
+			width:c(40, 1600);
+			height:c(40, 1600);
+		}
+	}
+	.BalanceDiv{
+		margin-left:con(46);
+		.EIcon{
+			width:con(15);
+			line-height:con(40.49);
+			margin-top:con(-8);
+		}
+		.ArrowIcon{
+			width:con(24);
+		}
+		p{
+			margin-left:con(4);
+			font-size:con(24);
+			line-height:con(26.4);
+			color:$green2;
+			font-weight:600;
+			@media(max-width:1600px){
+				margin-left:c(4, 1600);
+				font-size:c(24, 1600);
+				line-height:c(26.4, 1600);
+			}
+		}
+	}
+}
+.ExpireDiv{
+	margin-top:con(2);
+	margin-left:con(4);
+	p{
+		font-size:con(10);
+		line-height:con(12);
+		color:$black;
+	}
+	span{
+		color:$red;
+		font-size:con(12);
+		line-height:con(14.4);
+		margin-left:con(4);
+	}
+}

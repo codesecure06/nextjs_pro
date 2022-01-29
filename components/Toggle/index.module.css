@@ -1,0 +1,100 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ToggleContainer {
+  width: auto;
+}
+
+.Toggle {
+  width: 46.875px;
+  height: 24.21875px;
+  border-radius: 25.78125px;
+  -webkit-box-shadow: inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+  margin: 0px 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .Toggle {
+    width: 46.875px;
+    height: 24.21875px;
+    border-radius: 25.78125px;
+    margin: 0px 7.8125px;
+  }
+}
+
+.ToggleCircle {
+  background-color: #F7941D;
+  width: 17.96875px;
+  height: 17.96875px;
+  top: 3.125px;
+  left: 3.125px;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .ToggleCircle {
+    width: 17.96875px;
+    height: 17.96875px;
+    top: 3.125px;
+    left: 3.125px;
+  }
+}
+
+.ToggleCircle p {
+  color: white;
+  font-size: 9.375px;
+  line-height: 10.3125px;
+}
+
+.ToggledCircle {
+  left: 25.78125px;
+}
+
+.MinToggleContainer .Toggle {
+  width: 24.21875px;
+  height: 46.875px;
+}
+
+.MinToggleContainer .ToggledCircle {
+  left: 3.125px;
+  top: 25.78125px;
+}
+
+.MinToggleContainer .Label {
+  display: none;
+}
+
+.Label {
+  font-size: 12.5px;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .Label {
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.ActiveLabel {
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.module.css.map */

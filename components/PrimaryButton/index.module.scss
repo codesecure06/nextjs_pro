@@ -1,0 +1,18 @@
+@import '../styles.scss';
+
+.PrimaryButtonContainer{
+    padding:0px con(10);
+    border-radius:con(8);
+    height:con(50);
+    min-width:con(190);
+    font-size:con(20);
+    line-height:con(22);
+    font-weight:500;
+}
+.PrimaryButton{
+    background-color:$blue;
+    color:white;
+}
+.SecondaryButton{
+    color:$black;
+}

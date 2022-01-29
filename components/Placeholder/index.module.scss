@@ -1,0 +1,56 @@
+@import '../styles.scss';
+
+.Placeholder{
+    font-size:con(14);
+    font-weight:400;
+    color:$black;
+    height:con(1);
+    left:con(20);
+    top:con(-10);
+    @media(max-width:1600px){
+        font-size:c(14, 1600);
+        height:c(1, 1600);
+        left:c(20, 1600);
+        top:c(-10, 1600)
+    }
+    // @media(max-width:1440px){
+    //     font-size:c(14, 1440);
+    //     height:c(1, 1440);
+    //     left:c(20, 1440);
+    // }
+    span{
+        position:relative;
+        z-index:10;
+        font-size:con(14);
+        line-height:con(15.4);
+        @media(max-width:1600px){
+            font-size:c(14, 1600);
+            line-height:c(15.4, 1600);
+        }
+    }
+    div{
+        position:relative;
+        z-index:9;
+        &::before{
+            content:"";
+            position:absolute;
+            height:con(1);
+            width:calc(100% + con(10));
+            background-color:white;
+            top:con(9);
+            left:con(-5);
+            border-radius:con(10);
+            @media(max-width:1600px){
+                width:calc(100% + c(10, 1600));
+                height:c(1, 1600);
+                top:c(9, 1600);
+                left:c(-5, 1600);
+                border-radius:c(10, 1600);
+            }
+            // @media(max-width:1440px){
+            //     width:calc(100% + c(10, 1440));
+            //     left:c(-5, 1440);
+            // }
+        }
+    }
+}

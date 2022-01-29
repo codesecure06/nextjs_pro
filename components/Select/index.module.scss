@@ -1,0 +1,41 @@
+@import '../styles.scss';
+
+.SelectContainer{
+	width:con(257);
+	border-radius:64px;
+	height:con(60);
+	box-shadow:0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04);
+	padding:0px con(39) 0px con(41);
+	@media(max-width:1600px){
+		width:c(257, 1600);
+		height:c(60, 1600);
+		padding:0px c(39, 1600) 0px c(41, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	width:c(257, 1440);
+	// 	height:c(60, 1440);
+	// 	padding:0px c(39, 1440) 0px c(41, 1440);
+	// }
+}
+.Label{
+	font-size:con(16);
+	line-height:con(17.6);
+	color:$black;
+	@media(max-width:1600px){
+		font-size:c(16, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	font-size:c(16, 1440);
+	// }
+}
+.IconDiv{
+	img{
+		width:con(13.33);
+		@media(max-width:1600px){
+			width:c(12, 1600);
+		}
+		// @media(max-width:1440px){
+		// 	width:c(12, 1440);
+		// }
+	}
+}

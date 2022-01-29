@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+  font-family: Graphik;
+  src: url("https://esourcing-dashboard.vercel.app/dashboard/Graphik/GraphikRegular.otf") format("opentype");
+  font-weight:400;
+}
+@font-face{
+  font-family: Graphik;
+  src: url("https://esourcing-dashboard.vercel.app/dashboard/Graphik/GraphikMedium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face{
+  font-family: Graphik;
+  src: url("https://esourcing-dashboard.vercel.app/dashboard/Graphik/GraphikSemibold.otf") format("opentype");
+  font-weight: 600;
+}
+@font-face{
+    font-family:Graphik;
+    src:url("https://esourcing-dashboard.vercel.app/dashboard/Graphik/GraphikBold.otf") format("opentype");
+    font-weight:700;
+}
+@font-face{
+    font-family:Graphik;
+    src:url("https://esourcing-dashboard.vercel.app/dashbaord/Graphik/GraphikBlack.otf") format("opentype");
+    font-weight:800;
+}
+@font-face{
+    font-family:Graphik;
+    src:url("https://esourcing-dashboard.vercel.app//dashboard/Graphik/GraphikSuper.otf") format("opentype");
+    font-weight:900;
+}
+
+body{
+    /* background-color:#FAFAFA; */
+}
+input, input::-moz-focus-inner, input::moz-focus-outer, a::moz-focus-inner, button::-moz-focus-inner{
+    outline:none;
+}
+*:not(.fa, i){
+  font-family: Graphik, sans-serif !important;
+}
+
+div::-webkit-scrollbar, textarea::-webkit-scrollbar {
+    width:4px;
+    height:4px;
+}
+  
+/* Track */
+div::-webkit-scrollbar-track, textarea::-webkit-scrollbar-track {
+    background:transparent;
+    border-radius:8px;
+    width:4px;
+    height:4px;
+}
+   
+/* Handle */
+div::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
+    background:#C4C4C4;
+    border-radius:8px;
+    width:4px;
+    height:4px;
+}
+  
+/* Handle on hover */
+div::-webkit-scrollbar-thumb:hover, textarea::-webkit-scrollbar-thumb:hover {
+    background: #C4C4C4; 
+}
+
+.main-div{
+    height:calc(100vh - 93px);
+}
+.dashboard-container{
+    height:calc(100vh - 93px);
+    overflow-y:auto;
+}
+.inner-shadow{
+    box-shadow:inset 0px 2px 5px rgba(0, 0, 0, 0.14);
+}
+.search-bar{
+    width:500px;
+}
+.text-primary{
+    color:#01ADFB;
+}
+.text-secondary{
+    color:#FF9921;
+}
+.text-default{
+    color:#09273C;
+}
+.text-success{
+    color:#46AB52;
+}
+.bg-primary{
+    background-color:#01ADF8;
+}
+.bg-primary-200{
+    background-color:#CFEBFE;
+}
+.bg-secondary{
+    background-color:#FF9921;
+}
+.bg-secondary-200{
+    background-color:#FFF1E0;
+}
+.bg-primary-600{
+    background-color:#CFEBFE;
+}
+.border-secondary{
+    border-color:#FF9921;
+}
+.border-primary{
+    border-color:#01ADF8;
+}
+.shadow-primary{
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.shadow-header{
+    box-shadow:0px 4px 18px rgba(158, 191, 237, 0.2);
+}
+.opacity-background{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.bg-button{
+    background-color:#FFF1E0;
+}
+.meter{
+    border-left-color:#E0E0E0;
+    border-top-color:#E0E0E0;
+}
+.company-profile-tab-bg{
+    background-color:#FCFCFC;
+}
+input, select, textarea{
+    outline:none;
+}
+::placeholder{
+    font-size:11px;
+    line-height:12px;
+    color:rgba(106, 123, 134, 0.5);
+    font-weight:400;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    bottom:0px;
+}
+.tox-tinymce{
+    border:none !important;
+}
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 100% !important;
+    height: 80% !important;
+}
+.search-map-input{
+    z-index:88 !important;
+    padding:10px;
+    top:10px !important;
+    left:10px !important;
+    border-radius:8px;
+    width:calc(100% - 20px);
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}

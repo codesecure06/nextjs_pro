@@ -1,0 +1,27 @@
+
+@import '../styles.scss';
+
+.Heading{
+    font-size:con(16);
+    color:$black;
+    line-height:con(17.6);
+    font-weight:500;
+    @media(max-width:1600px){
+        font-size:c(16, 1600);
+    }
+    // @media(max-width:1440px){
+    //     font-size:c(16, 1440);
+    // }
+}
+.Score{
+    font-size:con(26);
+    color:$orange;
+    line-height:con(28.6);
+    font-weight:500;
+    @media(max-width:1600px){
+        font-size:c(26, 1600);
+    }
+    // @media(max-width:1440px){
+    //     font-size:c(26, 1440);
+    // }
+}

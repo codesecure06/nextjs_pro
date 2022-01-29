@@ -1,0 +1,35 @@
+@import '../styles.scss';
+
+.ConfirmPopupContainer{
+    width:con(591);
+    height:con(201);
+    background-color:rgba(128, 128, 128, 0.9);
+    border-radius:con(10);
+    z-index:99;
+    h2{
+        color:white;
+        font-size:con(20);
+        line-height:con(34);
+        font-weight:500;
+    }
+    .ActionButtons{
+        margin-top:con(34);
+        button{
+            &:first-child{
+                width:con(57);
+                height:con(35);
+                border-radius:con(10);
+                color:white;
+                font-size:con(16);
+            }
+            &:last-child{
+                width:con(57);
+                height:con(35);
+                border-radius:con(10);
+                background-color:$orange;
+                color:white;
+                font-size:con(16);
+            }
+        }
+    }
+}

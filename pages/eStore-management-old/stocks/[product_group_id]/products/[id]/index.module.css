@@ -1,0 +1,43 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.MainDiv {
+  padding: 21.09375px 0px 0px 23.4375px;
+  background-color: white;
+  -webkit-box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.04), 2px 0px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.04), 2px 0px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .MainDiv {
+    padding: 21.09375px 0px 0px 23.4375px;
+  }
+}
+
+.ProductsGroupsDiv {
+  -ms-flex-preferred-size: 206.25px;
+      flex-basis: 206.25px;
+}
+
+@media (max-width: 1600px) {
+  .ProductsGroupsDiv {
+    -ms-flex-preferred-size: 206.25px;
+        flex-basis: 206.25px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

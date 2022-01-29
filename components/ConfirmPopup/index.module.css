@@ -1,0 +1,54 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ConfirmPopupContainer {
+  width: 461.71875px;
+  height: 157.03125px;
+  background-color: rgba(128, 128, 128, 0.9);
+  border-radius: 7.8125px;
+  z-index: 99;
+}
+
+.ConfirmPopupContainer h2 {
+  color: white;
+  font-size: 15.625px;
+  line-height: 26.5625px;
+  font-weight: 500;
+}
+
+.ConfirmPopupContainer .ActionButtons {
+  margin-top: 26.5625px;
+}
+
+.ConfirmPopupContainer .ActionButtons button:first-child {
+  width: 44.53125px;
+  height: 27.34375px;
+  border-radius: 7.8125px;
+  color: white;
+  font-size: 12.5px;
+}
+
+.ConfirmPopupContainer .ActionButtons button:last-child {
+  width: 44.53125px;
+  height: 27.34375px;
+  border-radius: 7.8125px;
+  background-color: #F7941D;
+  color: white;
+  font-size: 12.5px;
+}
+/*# sourceMappingURL=index.module.css.map */

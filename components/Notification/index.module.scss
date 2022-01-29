@@ -1,0 +1,13 @@
+@import '../styles.scss';
+
+.NotificationContainer{
+	img{
+		width:con(41);
+        @media(max-width:1600px){
+            width:c(41, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(41, 1440);
+        // }
+	}
+}

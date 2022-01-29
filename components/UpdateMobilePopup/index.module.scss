@@ -1,0 +1,41 @@
+@import '../styles.scss';
+
+.OTPPopupContainer{
+    display:none;
+    width:con(501);
+    padding:0px con(50) con(60) con(50);
+    border-radius:con(30);
+    background-color:White;
+    z-index:99;
+    .Image{
+        width:con(307);
+        margin-top:con(-150);
+    }
+    h3{
+        margin-top:con(37);
+        font-size:con(30);
+        line-height:con(33);
+        font-weight:500;
+    }
+    p{
+        font-size:con(16);
+        line-height:con(17.6);
+        margin-top:con(21.36);
+        span{
+            color:$blue;
+        }
+    }
+    .InputDiv{
+        margin-top:con(38);
+    }
+    .ButtonDiv{
+        margin-top:con(20);
+    }
+    .CloseDiv{
+        top:con(-19);
+        right:con(-19);
+        img{
+            width:con(29);
+        }
+    }
+}

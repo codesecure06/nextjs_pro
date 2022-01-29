@@ -1,0 +1,118 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.RemoveButton {
+  height: 39.0625px;
+  border-radius: 7.8125px;
+  border: 1px solid #FE4028;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  padding: 0px 13.28125px 0px 10.15625px;
+  transition: all 0.2s linear;
+}
+
+.RemoveButton:hover:not(.RemoveActive) {
+  background-color: #FE4028;
+}
+
+.RemoveButton:hover:not(.RemoveActive) .Text {
+  color: white;
+}
+
+.RemoveButton:hover:not(.RemoveActive) .RemoveIcon {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton {
+    height: 39.0625px;
+    padding: 0px 13.28125px 0px 10.15625px;
+  }
+}
+
+.RemoveButton p {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #F94232;
+  margin-right: 10.9375px;
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton p {
+    font-size: 12.5px;
+    margin-right: 10.9375px;
+  }
+}
+
+.RemoveButton img {
+  width: 12.5px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton img {
+    width: 12.5px;
+  }
+}
+
+.RemoveButton .ConfirmText {
+  margin-right: 32.8125px;
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton .ConfirmText {
+    margin-right: 32.8125px;
+  }
+}
+
+.RemoveButton .ConfirmDiv {
+  margin-right: 13.28125px;
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton .ConfirmDiv {
+    margin-right: 13.28125px;
+  }
+}
+
+.RemoveButton .ConfirmDiv img {
+  width: 18.75px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .RemoveButton .ConfirmDiv img {
+    width: 18.75px;
+  }
+}
+
+.RemoveActive {
+  width: 201.5625px;
+}
+
+@media (max-width: 1600px) {
+  .RemoveActive {
+    width: 201.5625px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,66 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.OTPPopupContainer {
+  display: none;
+  width: 391.40625px;
+  padding: 0px 39.0625px 46.875px 39.0625px;
+  border-radius: 23.4375px;
+  background-color: White;
+  z-index: 99;
+}
+
+.OTPPopupContainer .Image {
+  width: 239.84375px;
+  margin-top: -117.1875px;
+}
+
+.OTPPopupContainer h3 {
+  margin-top: 28.90625px;
+  font-size: 23.4375px;
+  line-height: 25.78125px;
+  font-weight: 500;
+}
+
+.OTPPopupContainer p {
+  font-size: 12.5px;
+  line-height: 13.75px;
+  margin-top: 16.6875px;
+}
+
+.OTPPopupContainer p span {
+  color: #3B9ADA;
+}
+
+.OTPPopupContainer .InputDiv {
+  margin-top: 29.6875px;
+}
+
+.OTPPopupContainer .ButtonDiv {
+  margin-top: 15.625px;
+}
+
+.OTPPopupContainer .CloseDiv {
+  top: -14.84375px;
+  right: -14.84375px;
+}
+
+.OTPPopupContainer .CloseDiv img {
+  width: 22.65625px;
+}
+/*# sourceMappingURL=index.module.css.map */

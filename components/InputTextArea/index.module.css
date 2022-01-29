@@ -1,0 +1,209 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.InputDesignContainer {
+  border: 0.78125px solid rgba(106, 123, 134, 0.2);
+  border-radius: 7.8125px;
+  height: 117.1875px;
+  padding-top: 12.5px;
+  padding-right: 3.90625px;
+  background-color: white;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+@media (max-width: 1600px) {
+  .InputDesignContainer {
+    border: 0.78125px solid rgba(106, 123, 134, 0.2);
+    height: 117.1875px;
+    padding-top: 12.5px;
+    padding-right: 3.90625px;
+    border-radius: 7.8125px;
+  }
+}
+
+.IconDiv {
+  padding-left: 7.8125px;
+  padding-right: 8.59375px;
+}
+
+@media (max-width: 1600px) {
+  .IconDiv {
+    padding-left: 7.8125px;
+    padding-right: 8.59375px;
+  }
+}
+
+.IconDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .IconDiv img {
+    width: 18.75px;
+  }
+}
+
+.SecondIconDiv {
+  margin-left: 7.8125px;
+  margin-right: 3.90625px;
+}
+
+@media (max-width: 1600px) {
+  .SecondIconDiv {
+    margin-left: 7.8125px;
+    margin-right: 3.90625px;
+  }
+}
+
+.SecondIconDiv img {
+  width: 23.4375px;
+}
+
+@media (max-width: 1600px) {
+  .SecondIconDiv img {
+    width: 23.4375px;
+  }
+}
+
+.InputDiv {
+  margin-top: -3.90625px;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv {
+    margin-top: 0px;
+  }
+}
+
+.InputDiv textarea {
+  font-size: 12.5px;
+  font-weight: 500;
+  background-color: transparent;
+  line-height: 13.75px;
+  height: 100%;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv textarea {
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.NoIcon {
+  margin-left: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .NoIcon {
+    margin-left: 15.625px;
+  }
+}
+
+.SecuredDiv {
+  background-color: #F0F0F0;
+}
+
+.UrlDiv {
+  margin-top: 3.90625px;
+  margin-left: -3.125px;
+  font-size: 12.5px;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .UrlDiv {
+    margin-top: 2.34375px;
+    margin-left: -3.125px;
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.UrlDiv p {
+  color: #D2D7DB;
+}
+
+.PhoneNumberDiv {
+  color: #999999;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .PhoneNumberDiv {
+    line-height: 13.75px;
+  }
+}
+
+.PhoneNumberDiv select {
+  background: none;
+  font-size: 12.5px;
+  font-weight: 500;
+  -webkit-appearance: none;
+}
+
+@media (max-width: 1600px) {
+  .PhoneNumberDiv select {
+    font-size: 12.5px;
+  }
+}
+
+.PhoneNumberDiv span:first-child {
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .PhoneNumberDiv span:first-child {
+    font-size: 12.5px;
+  }
+}
+
+.ErrorDiv img {
+  width: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .ErrorDiv img {
+    width: 12.5px;
+  }
+}
+
+.ErrorDiv p {
+  font-size: 9.375px;
+  line-height: 10.3125px;
+  color: #F94232;
+  margin-top: 1.5625px;
+  margin-left: 3.125px;
+}
+
+@media (max-width: 1600px) {
+  .ErrorDiv p {
+    font-size: 9.375px;
+    line-height: 10.3125px;
+    margin-top: 1.5625px;
+    margin-left: 3.125px;
+  }
+}
+
+.ErrorInput {
+  border: 1px solid #F94232;
+}
+/*# sourceMappingURL=index.module.css.map */

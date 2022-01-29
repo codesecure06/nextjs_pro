@@ -1,0 +1,76 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.PointsDiv {
+  font-size: 10.9375px;
+  font-weight: 400;
+  color: #09273C;
+  height: 0.78125px;
+  color: #F7941D;
+  top: -7.8125px;
+  right: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .PointsDiv {
+    font-size: 10.9375px;
+    height: 0.78125px;
+    top: -7.8125px;
+    right: 15.625px;
+  }
+}
+
+.PointsDiv span {
+  position: relative;
+  z-index: 10;
+  font-size: 10.9375px;
+  line-height: 12.03125px;
+}
+
+@media (max-width: 1600px) {
+  .PointsDiv span {
+    font-size: 10.9375px;
+    line-height: 12.03125px;
+  }
+}
+
+.PointsDiv div {
+  position: relative;
+  z-index: 9;
+}
+
+.PointsDiv div::before {
+  content: "";
+  position: absolute;
+  height: 0.78125px;
+  width: calc(100% + con(10));
+  background-color: #FCFCFC;
+  top: 7.03125px;
+  left: -3.90625px;
+  border-radius: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .PointsDiv div::before {
+    width: calc(100% + c(10, 1600));
+    height: 0.78125px;
+    top: 7.03125px;
+    left: -3.90625px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

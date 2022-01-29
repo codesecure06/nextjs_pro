@@ -1,0 +1,110 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.LabelContainer {
+  height: 39.0625px;
+  border: 0.78125px solid rgba(106, 123, 134, 0.1);
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 6.25px;
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer {
+    height: 39.0625px;
+    border: 0.78125px solid rgba(106, 123, 134, 0.1);
+    border-radius: 6.25px;
+  }
+}
+
+.LabelContainer .IconDiv {
+  width: 39.0625px;
+  height: 39.0625px;
+  background-color: rgba(106, 123, 134, 0.2);
+  border-radius: 6.25px 0px 0px 6.25px;
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer .IconDiv {
+    width: 39.0625px;
+    height: 39.0625px;
+    border-radius: 6.25px 0px 0px 6.25px;
+  }
+}
+
+.LabelContainer .IconDiv p {
+  font-size: 15.625px;
+  line-height: 17.1875px;
+  color: black;
+  opacity: 0.5;
+  margin-top: 3.125px;
+}
+
+.LabelContainer input {
+  font-size: 10.9375px;
+  line-height: 11.71875px;
+  color: rgba(10, 123, 134, 0.3);
+  margin-left: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer input {
+    font-size: 10.9375px;
+    line-height: 11.71875px;
+    margin-left: 7.8125px;
+  }
+}
+
+.LabelContainer .NoIcon {
+  margin-left: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer .NoIcon {
+    margin-left: 15.625px;
+  }
+}
+
+.LabelContainer select {
+  width: 78.125px;
+  height: 39.0625px;
+  background-color: rgba(106, 123, 134, 0.2);
+  border-radius: 0px 6.25px 6.25px 0px;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 0px 8.59375px 0px 17.96875px;
+  -webkit-appearance: none;
+  background-image: url("/dashboard/images/icons/chevron-down-grey.svg");
+  background-size: 18.75px;
+  background-position: 55.46875px 50%;
+  background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1600px) {
+  .LabelContainer select {
+    width: 78.125px;
+    height: 39.0625px;
+    border-radius: 0px 6.25px 6.25px 0px;
+    font-size: 12.5px;
+    padding: 0px 8.59375px 0px 17.96875px;
+    background-size: 18.75px;
+    background-position: 55.46875px 50%;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

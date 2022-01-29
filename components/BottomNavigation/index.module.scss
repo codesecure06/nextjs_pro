@@ -1,0 +1,38 @@
+@import '../styles.scss';
+
+.Sidebar{
+    width:con(276);
+    box-shadow:0px -10px 20px rgba(0, 0, 0, 0.04), 0px -2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    padding:0px 0px con(20) 0px;
+    z-index:80;
+    transition:all 0.2s ease-in-out;
+    @media(max-width:1600px){
+        width:c(276, 1600);
+        padding:0px 0px c(20, 1600) 0px;
+    }
+    // @media(max-width:1440px){
+    //     width:c(276, 1440);
+    //     padding:c(103, 1440) c(14, 1440) c(89, 1440) c(20, 1440);
+    // }
+}
+.MinSidebar{
+    width:con(104);
+    @media(max-width:1600px){
+        width:c(104, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(86, 1440);
+    // }
+}
+.CloseSidebar{
+    margin-left:con(-104);
+    @media(max-width:1600px){
+        margin-left:c(-104, 1600);
+    }
+    // @media(max-width:1440px){
+    //     margin-left:c(-86, 1440);
+    // }
+}
+.BuyerSellerToggleDiv{
+    height:con(103);
+}

@@ -1,0 +1,13 @@
+@import '../styles.scss';
+
+.Heading{
+    font-size:con(26);
+    font-weight:600;
+    line-height:con(29);
+    @media(max-width:1600px){
+        font-size:c(26, 1600);
+    }
+    // @media(max-width:1440px){
+    //     font-size:c(26, 1440);
+    // }
+}

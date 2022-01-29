@@ -1,0 +1,117 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.HeaderContainer {
+  height: 87.5px;
+  padding: 0px 50px 0px 15.625px;
+  -webkit-box-shadow: 0px 4px 18px rgba(158, 191, 237, 0.2);
+          box-shadow: 0px 4px 18px rgba(158, 191, 237, 0.2);
+  z-index: 97;
+}
+
+@media (max-width: 1600px) {
+  .HeaderContainer {
+    height: 87.5px;
+    padding: 0px 50px 0px 15.625px;
+  }
+}
+
+.BelowHeader {
+  height: 87.5px;
+}
+
+@media (max-width: 1600px) {
+  .BelowHeader {
+    height: 87.5px;
+  }
+}
+
+.MenuIcon {
+  width: 37.5px;
+  height: 37.5px;
+  -webkit-box-shadow: 3px 5px 14px rgba(125, 199, 249, 0.5);
+          box-shadow: 3px 5px 14px rgba(125, 199, 249, 0.5);
+  background-color: #01ADFB;
+  border-radius: 50%;
+  margin-right: 21.875px;
+}
+
+@media (max-width: 1600px) {
+  .MenuIcon {
+    width: 37.5px;
+    height: 37.5px;
+    margin-right: 21.875px;
+  }
+}
+
+.MenuIcon img {
+  width: 19.44531px;
+}
+
+@media (max-width: 1600px) {
+  .MenuIcon img {
+    width: 19.44531px;
+  }
+}
+
+.LogoDiv {
+  -ms-flex-preferred-size: 123.4375px;
+      flex-basis: 123.4375px;
+}
+
+@media (max-width: 1600px) {
+  .LogoDiv {
+    -ms-flex-preferred-size: 123.4375px;
+        flex-basis: 123.4375px;
+  }
+}
+
+.LogoDiv img {
+  width: 100%;
+}
+
+.SearchBarDiv {
+  margin-left: 62.5px;
+}
+
+@media (max-width: 1600px) {
+  .SearchBarDiv {
+    margin-left: 62.5px;
+  }
+}
+
+.ProfileIconDiv {
+  margin-left: 31.25px;
+}
+
+@media (max-width: 1600px) {
+  .ProfileIconDiv {
+    margin-left: 31.25px;
+  }
+}
+
+.WalletDiv {
+  margin-right: 28.125px;
+}
+
+@media (max-width: 1600px) {
+  .WalletDiv {
+    margin-right: 28.125px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

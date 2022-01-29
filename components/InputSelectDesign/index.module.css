@@ -1,0 +1,200 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.InputSelectDesignContainer {
+  border: 0.78125px solid rgba(106, 123, 134, 0.2);
+  border-radius: 7.8125px;
+  height: 39.0625px;
+  background-color: white;
+  padding-right: 3.90625px;
+}
+
+@media (max-width: 1600px) {
+  .InputSelectDesignContainer {
+    height: 39.0625px;
+    border-radius: 7.8125px;
+    padding-right: 3.90625px;
+  }
+}
+
+.OptionsDiv {
+  max-height: 210.9375px;
+  border-radius: 15.625px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border: 0.78125px solid #E8EAEC;
+  z-index: 70;
+  padding: 11.71875px 10.15625px 10.9375px 11.71875px;
+}
+
+@media (max-width: 1600px) {
+  .OptionsDiv {
+    max-height: 210.9375px;
+    border-radius: 15.625px;
+    brder: 0.78125px solid #E8EAEC;
+    padding: 11.71875px 10.15625px 10.9375px 11.71875px;
+  }
+}
+
+.OptionsDiv .Option {
+  height: 21.875px;
+  border-radius: 21.875px;
+  margin-top: 6.25px;
+  margin-right: 7.8125px;
+  padding: 0px 7.8125px;
+  background-color: #E6F5FE;
+}
+
+@media (max-width: 1600px) {
+  .OptionsDiv .Option {
+    height: 21.875px;
+    magin-top: 6.25px;
+    margin-right: 7.8125px;
+    border-radius: 21.875px;
+    padding: 0px 7.8125px;
+  }
+}
+
+.OptionsDiv .Option p {
+  font-size: 12.5px;
+  line-height: 13.75px;
+  color: #3B9ADA;
+}
+
+@media (ma-width: 1600px) {
+  .OptionsDiv .Option p {
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.OptionsDiv .ActiveOption {
+  background-color: #3B9ADA;
+}
+
+.OptionsDiv .ActiveOption p {
+  font-weight: 500;
+  color: white;
+}
+
+.SearchBarDiv {
+  z-index: 80;
+  background-color: white;
+  margin-bottom: 5.46875px;
+}
+
+.SearchBarDiv .SearchBar {
+  height: 23.4375px;
+  border-radius: 21.09375px;
+  background-color: rgba(9, 39, 60, 0.1);
+  padding-left: 10.9375px;
+}
+
+.SearchBarDiv .SearchBar img {
+  width: 12.5px;
+}
+
+.SearchBarDiv .SearchBar input {
+  margin-left: 7.8125px;
+  background: none;
+  font-size: 12.5px;
+  line-height: 13.59375px;
+}
+
+.FadedDiv {
+  border-radius: 15.625px;
+  height: 36.71875px;
+}
+
+@media (max-width: 1600px) {
+  .FadedDiv {
+    height: 36.71875px;
+    border-radius: 15.625px;
+  }
+}
+
+.IconDiv {
+  padding-left: 7.8125px;
+  padding-right: 8.59375px;
+}
+
+@media (max-width: 1600px) {
+  .IconDiv {
+    padding-left: 7.8125px;
+    padding-right: 8.59375px;
+  }
+}
+
+.IconDiv img {
+  width: 18.75px;
+}
+
+@media (max-width: 1600px) {
+  .IconDiv img {
+    width: 18.75px;
+  }
+}
+
+.SecondIconDiv {
+  margin-right: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .SecondIconDiv {
+    margin-right: 7.8125px;
+  }
+}
+
+.InputDiv {
+  margin-top: -3.90625px;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv {
+    margin-top: 0px;
+  }
+}
+
+.InputDiv input {
+  font-size: 12.5px;
+  font-weight: 500;
+  background-color: transparent;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .InputDiv input {
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.SecuredDiv {
+  background-color: #F0F0F0;
+}
+
+.NoIcon {
+  margin-left: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .NoIcon {
+    margin-left: 15.625px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

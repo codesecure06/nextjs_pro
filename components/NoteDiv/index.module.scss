@@ -1,0 +1,14 @@
+@import '../styles.scss';
+
+.NotesContainer{
+    p{
+        color:$blue;
+        font-size:16px;
+        @media(max-width:1600px){
+            font-size:c(16, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(16, 1440);
+        // }
+    }
+}

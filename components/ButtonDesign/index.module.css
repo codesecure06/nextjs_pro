@@ -1,0 +1,36 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Button {
+  height: 50px;
+  background-color: #EB5757;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 11.71875px;
+  font-size: 18.75px;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width: 1600px) {
+  .Button {
+    height: 50px;
+    font-size: 18.75px;
+    border-radius: 11.71875px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

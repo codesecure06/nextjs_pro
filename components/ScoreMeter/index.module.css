@@ -1,0 +1,185 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Score {
+  margin-bottom: 22px;
+}
+
+@media (max-width: 1600px) {
+  .Score {
+    margin-bottom: 17.1875px;
+  }
+}
+
+.Score font {
+  font-weight: 500;
+}
+
+.Score font:first-child {
+  color: #6A7B86;
+  font-size: 12.5px;
+  line-height: 13.75px;
+}
+
+@media (max-width: 1600px) {
+  .Score font:first-child {
+    font-size: 12.5px;
+    line-height: 13.75px;
+  }
+}
+
+.Score font:last-child {
+  color: #37A444;
+  font-size: 15.625px;
+  margin-left: 7.8125px;
+  line-height: 17.1875px;
+}
+
+@media (max-width: 1600px) {
+  .Score font:last-child {
+    font-size: 15.625px;
+    margin-left: 7.8125px;
+    line-height: 17.1875px;
+  }
+}
+
+.MeterContainer {
+  background-color: rgba(106, 123, 134, 0.05);
+  width: 140px;
+  height: 70px;
+}
+
+@media (max-width: 1600px) {
+  .MeterContainer {
+    width: 109.375px;
+    height: 54.6875px;
+  }
+}
+
+.MeterInner {
+  width: 100px;
+  height: 50px;
+  left: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0px 11.2782px 22.5564px rgba(0, 0, 0, 0.04), 0px 2.25564px 6.76692px rgba(0, 0, 0, 0.04), 0px 0px 1.12782px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 11.2782px 22.5564px rgba(0, 0, 0, 0.04), 0px 2.25564px 6.76692px rgba(0, 0, 0, 0.04), 0px 0px 1.12782px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .MeterInner {
+    width: 78.125px;
+    height: 39.0625px;
+    left: 15.625px;
+  }
+}
+
+.MeterInner p {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+  text-align: center;
+  line-height: 9.69531px;
+  margin-top: 5.28906px;
+}
+
+@media (max-width: 1600px) {
+  .MeterInner p {
+    font-size: 8.8125px;
+    line-height: 9.69531px;
+    margin-top: 5.28906px;
+  }
+}
+
+.MeterInner h2 {
+  font-size: 22.56px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -5px;
+}
+
+@media (ma-width: 1600px) {
+  .MeterInner h2 {
+    font-size: 17.625px;
+    margin-top: -3.90625px;
+    line-height: 19.38281px;
+  }
+}
+
+.Meter {
+  width: 140px;
+  height: 140px;
+  border: 4px solid;
+  border-left-color: rgba(106, 123, 134, 0.1);
+  border-top-color: rgba(106, 123, 134, 0.1);
+  border-right-color: #3B9ADA;
+  border-bottom-color: #3B9ADA;
+}
+
+@media (max-width: 1600px) {
+  .Meter {
+    width: 109.375px;
+    height: 109.375px;
+    border: 3.125px solid;
+    border-left-color: rgba(106, 123, 134, 0.1);
+    border-top-color: rgba(106, 123, 134, 0.1);
+    border-right-color: #3B9ADA;
+    border-bottom-color: #3B9ADA;
+  }
+}
+
+.MeterCircle {
+  width: 13px;
+  height: 6px;
+  background-color: #F7941D;
+  border-radius: 21px;
+  margin-left: 13.5px;
+  margin-bottom: 13.5px;
+  border: 1px solid white;
+  position: relative;
+  z-index: 90;
+  -webkit-transform: rotateZ(43deg);
+          transform: rotateZ(43deg);
+}
+
+@media (max-width: 1600px) {
+  .MeterCircle {
+    margin-left: 9.375px;
+    margin-bottom: 9.375px;
+  }
+}
+
+.ValuesDiv {
+  margin-top: 5px;
+}
+
+@media (max-width: 1600px) {
+  .ValuesDiv {
+    margin-top: 3.90625px;
+  }
+}
+
+.ValuesDiv p {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+}
+
+@media (ma-width: 1600px) {
+  .ValuesDiv p {
+    font-size: 8.59375px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */
