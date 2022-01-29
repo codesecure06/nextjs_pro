@@ -1,0 +1,80 @@
+@import '../styles.scss';
+
+.ToggleContainer{
+	width:auto;
+}
+.Toggle{
+	width:con(60);
+	height:con(31);
+	border-radius:con(33);
+	box-shadow:inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+	margin:0px con(10);
+	@media(max-width:1600px){
+		width:c(60, 1600);
+		height:c(31, 1600);
+		border-radius:c(33, 1600);
+		margin:0px c(10, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	width:c(74, 1440);
+	// 	height:c(38, 1440);
+	// 	border-radius:c(33, 1440);
+	// 	margin:0px c(10, 1440);
+	// }
+}
+.ToggleCircle{
+	background-color:$orange;
+	width:con(23);
+	height:con(23);
+	top:con(4);
+	left:con(4);
+	border-radius:50%;
+	transition:all 0.2s linear;
+	@media(max-width:1600px){
+		width:c(23, 1600);
+		height:c(23, 1600);
+		top:c(4, 1600);
+		left:c(4, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	width:c(28, 1440);
+	// 	height:c(28, 1440);
+	// 	top:c(5, 1440);
+	// 	left:c(5, 1440);
+	// }
+	p{
+		color:white;
+		font-size:con(12);
+		line-height:con(13.2);
+	}
+}
+.ToggledCircle{
+	left:con(33);
+}
+.MinToggleContainer{
+	.Toggle{
+		width:con(31);
+		height:con(60);
+	}
+	.ToggledCircle{
+		left:con(4);
+		top:con(33);
+	}
+	.Label{
+		display:none;
+	}
+}
+.Label{
+	font-size:con(16);
+	line-height:con(17.6);
+	@media(max-width:1600px){
+		font-size:c(16, 1600);
+		line-height:c(17.6, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	font-size:c(14, 1440);
+	// }
+}
+.ActiveLabel{
+	font-weight:500;
+}

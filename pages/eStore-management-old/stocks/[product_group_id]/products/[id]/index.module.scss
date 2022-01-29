@@ -1,0 +1,19 @@
+@import '../../../../../../components/styles.scss';
+
+.MainDiv{
+    padding:con(27) con(0) 0px con(30);
+    background-color:white;
+    box-shadow:10px 0px 20px rgba(0, 0, 0, 0.04), 2px 0px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    @media(max-width:1600px){
+        padding:c(27, 1600) c(0, 1600) 0px c(30, 1600);
+    }
+}
+.ProductsGroupsDiv{
+    flex-basis:con(264);
+    @media(max-width:1600px){
+        flex-basis:c(264, 1600);
+    }
+    // @media(max-width:1440px){
+    //     flex-basis:c(264, 1440);
+    // }
+}

@@ -1,0 +1,39 @@
+@import '../styles.scss';
+
+.SearchBar{
+    background-color:#F6F6F6;
+    width:con(668);
+    height:con(50);
+    padding:0px con(24);
+    @media(max-width:1600px){
+        width:c(668, 1600);
+        height:c(50, 1600);
+        padding:0px c(24, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(668, 1440);
+    //     height:c(50, 1440);
+    //     padding:0px c(24, 1440);
+    // }
+    img{
+        width:con(35);
+        @media(max-width:1600px){
+            width:c(35, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(35, 1440);
+        // }
+    }
+    input{
+        font-size:con(16);
+        margin-left:con(38);
+        @media(max-width:1600px){
+            margin-left:c(38, 1600);
+            font-size:c(16, 1600);
+        }
+        // @media(max-width:1440px){
+        //     margin-left:c(38, 1440);
+        //     font-size:c(16, 1440);
+        // }
+    }
+}

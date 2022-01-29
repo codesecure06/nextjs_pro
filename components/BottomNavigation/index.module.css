@@ -1,0 +1,59 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Sidebar {
+  width: 215.625px;
+  -webkit-box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.04), 0px -2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.04), 0px -2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  padding: 0px 0px 15.625px 0px;
+  z-index: 80;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 1600px) {
+  .Sidebar {
+    width: 215.625px;
+    padding: 0px 0px 15.625px 0px;
+  }
+}
+
+.MinSidebar {
+  width: 81.25px;
+}
+
+@media (max-width: 1600px) {
+  .MinSidebar {
+    width: 81.25px;
+  }
+}
+
+.CloseSidebar {
+  margin-left: -81.25px;
+}
+
+@media (max-width: 1600px) {
+  .CloseSidebar {
+    margin-left: -81.25px;
+  }
+}
+
+.BuyerSellerToggleDiv {
+  height: 80.46875px;
+}
+/*# sourceMappingURL=index.module.css.map */

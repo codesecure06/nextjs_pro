@@ -1,0 +1,35 @@
+@import '../styles.scss';
+
+.SecondaryBusinessCategoryButton{
+    border:con(1) solid rgba(106, 123, 134, 0.3);
+    border-radius:con(47);
+    font-size:con(16);
+    margin-top:con(17);
+    margin-right:con(20);
+    margin-bottom:con(3);
+    padding:con(10) con(20);
+    line-height:con(18);
+    @media(max-width:1600px){
+        font-size:c(16, 1600);
+        margin-top:c(17, 1600);
+        margin-right:c(20, 1600);
+        margin-bottom:c(3, 1600);
+        padding:c(10, 1600) c(20, 1600);
+        line-height:c(18, 1600);
+    }
+    // @media(max-width:1440px){
+    //     font-size:c(16, 1440);
+    //     margin:c(10, 1440);
+    // }
+}
+.Disabled{
+    opacity:0.5;
+}
+.Active{
+    border:con(1) solid $orange;
+    background-color:$light_orange;
+    opacity:1;
+    @media(max-width:1600px){
+        border:c(1, 1600) solid $orange;
+    }
+}

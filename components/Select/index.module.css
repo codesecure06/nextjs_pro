@@ -1,0 +1,57 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.SelectContainer {
+  width: 200.78125px;
+  border-radius: 64px;
+  height: 46.875px;
+  -webkit-box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04);
+  padding: 0px 30.46875px 0px 32.03125px;
+}
+
+@media (max-width: 1600px) {
+  .SelectContainer {
+    width: 200.78125px;
+    height: 46.875px;
+    padding: 0px 30.46875px 0px 32.03125px;
+  }
+}
+
+.Label {
+  font-size: 12.5px;
+  line-height: 13.75px;
+  color: #09273C;
+}
+
+@media (max-width: 1600px) {
+  .Label {
+    font-size: 12.5px;
+  }
+}
+
+.IconDiv img {
+  width: 10.41406px;
+}
+
+@media (max-width: 1600px) {
+  .IconDiv img {
+    width: 9.375px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

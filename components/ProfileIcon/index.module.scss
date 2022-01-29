@@ -1,0 +1,157 @@
+@import '../styles.scss';
+
+.ProfileImageDiv{
+    width:con(50);
+    height:con(50);
+    border-radius:50%;
+    border:con(2) solid $orange;
+    @media(max-width:1600px){
+        width:c(50, 1600);
+        height:c(50, 1600);
+        border:c(2, 1600) solid $orange;
+    }
+    // @media(max-width:1440px){
+    //     width:c(50, 1440);
+    //     height:c(50, 1440);
+    //     border:c(3, 1440) solid $orange;
+    // }
+    div{
+        width:con(40);
+        height:con(40);
+        border-radius:50%;
+        @media(max-width:1600px){
+            width:c(40, 1600);
+            height:c(40, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(40, 1440);
+        //     height:c(40, 1440);
+        // }
+    }
+}
+.MenuProfileImageDiv{
+    width:con(100);
+    height:con(100);
+    border-radius:50%;
+    border:con(2) solid $orange;
+    @media(max-width:1600px){
+        width:c(100, 1600);
+        height:c(100, 1600);
+        border:c(2, 1600) solid $orange;
+    }
+    // @media(max-width:1440px){
+    //     width:c(50, 1440);
+    //     height:c(50, 1440);
+    //     border:c(3, 1440) solid $orange;
+    // }
+    div{
+        width:con(80);
+        height:con(80);
+        border-radius:50%;
+        @media(max-width:1600px){
+            width:c(80, 1600);
+            height:c(80, 1600);
+        }
+        // @media(max-width:1440px){
+        //     width:c(40, 1440);
+        //     height:c(40, 1440);
+        // }
+    }
+}
+.ProfileMenu{
+    width:con(428);
+	padding-top:con(36);
+	border-radius:con(17);
+    box-shadow:$box_shadow;
+    top:con(112);
+    right:con(-428);
+    max-height:calc(100% - con(132));
+    @media(max-width:1600px){
+        width:c(428, 1600);
+        right:c(-428, 1600);
+        padding-top:c(36, 1600);
+        top:c(112, 1600);
+        border-radius:c(17, 1600);
+        max-height:calc(100% - c(132, 1600));
+    }
+    // @media(max-width:1440px){
+    //     width:c(428, 1440);
+    //     right:c(-428, 1440);
+    //     padding-top:c(36, 1440);
+    //     top:c(112, 1440);
+    // }
+    .RatingDiv{
+        margin-top:con(7);
+    }
+}
+.ProfileMenuDiv{
+    padding:con(18) 0px;
+    @media(max-width:1600px){
+        padding:c(18, 1600) 0px;
+    }
+    // @media(max-width:1440px){
+    //     padding:c(18, 1440) 0px;
+    // }
+}
+.DetailsDiv{
+    margin-top:con(10);
+    padding-bottom:con(20);
+    border-bottom:con(0.5) solid rgba(68, 68, 68, 0.5);
+    @media(max-width:1600px){
+        margin-top:c(10, 1600);
+        padding-bottom:c(20, 1600);
+    }
+    // @media(max-width:1440px){
+    //     margin-top:c(10, 1440);
+    //     padding-bottom:c(20, 1440);
+    // }
+    .NameDiv{
+        color:$black;
+        font-size:con(24);
+        font-weight:500;
+        @media(max-width:1600px){
+            font-size:c(24, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(24, 1440);
+        // }
+    }
+    .EmailDiv{
+        color:rgba(9, 39, 60, 0.8);
+        font-size:con(16);
+        margin-top:con(10);
+        @media(max-width:1600px){
+            font-size:c(16, 1600);
+            margin-top:c(10, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(16, 1440);
+        //     margin-top:c(10, 1440);
+        // }
+    }
+    .PhoneNumberDiv{
+        color:rgba(9, 39, 60, 0.8);
+        font-size:con(16);
+        margin-top:con(10);
+        @media(max-width:1600px){
+            font-size:c(16, 1600);
+            margin-top:c(10, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(16, 1440);
+        //     margin-top:c(10, 1440);
+        // }
+    }
+}
+
+.SignOutDiv{
+	padding:con(32);
+    border-top:con(0.5) solid rgba(68, 68, 68, 0.5);
+    @media(max-width:1600px){
+        padding:c(32, 1600);
+        border-top:c(0.5, 1600) solid rgba(68, 68, 68, 0.5);
+    }
+    // @media(max-width:1440px){
+    //     padding:c(32, 1440);
+    // }
+}

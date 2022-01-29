@@ -1,0 +1,43 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.CheckboxContainer {
+  width: 15.625px;
+  height: 15.625px;
+  border: 0.78125px solid #F7941D;
+  border-radius: 3.90625px;
+  overflow: hidden;
+}
+
+@media (max-width: 1600px) {
+  .CheckboxContainer {
+    width: 15.625px;
+    height: 15.625px;
+    border-radius: 3.90625px;
+    border: 0.78125px solid #F7941D;
+  }
+}
+
+.CheckboxContainer input {
+  display: none;
+}
+
+.Checked {
+  background-color: #F7941D;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,20 @@
+@import '../styles.scss';
+
+.Button{
+	height:con(64);
+	background-color:$red;
+	color:rgba(0, 0, 0, 0.7);
+	border-radius:con(15);
+	font-size:con(24);
+	font-weight:500;
+	color:white;
+	@media(max-width:1600px){
+		height:c(64, 1600);
+		font-size:c(24, 1600);
+		border-radius:c(15, 1600);
+	}
+	// @media(max-width:1440px){
+	// 	padding:c(19, 1440) 0px;
+	// 	font-size:c(24, 1440);
+	// }
+}

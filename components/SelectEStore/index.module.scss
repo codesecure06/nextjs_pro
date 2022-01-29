@@ -1,0 +1,37 @@
+@import '../styles.scss';
+
+.SelectEStoreContainer{
+    padding:0px con(43) 0px con(37.5);
+    height:con(50);
+    border-radius:con(51);
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    color:$blue;
+    margin-bottom:con(35);
+    @media(max-width:1600px){
+        padding:0px c(43, 1600) 0px c(37.5, 1600);
+        height:c(50, 1600);
+        border-radius:c(51, 1600);
+        margin-bottom:c(35, 1600);
+    }
+    // @media(max-width:1440px){
+    //     padding:0px c(43, 1440) 0px c(37, 1440);
+    //     height:c(50, 1440);
+    //     border-radius:c(51, 1440);
+    // }
+    p{
+        font-size:con(20);
+        font-weight:500;
+        @media(max-width:1600px){
+            font-size:c(20, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(20, 1440);
+        // }
+    }
+    img{
+        width:con(24);
+        @media(max-width:1600px){
+            width:c(24, 1600);
+        }
+    }
+}

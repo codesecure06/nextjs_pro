@@ -1,0 +1,94 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.EStoreTabContainer {
+  width: 185.15625px;
+  height: 7.03125px;
+  border-radius: 15.625px;
+  background-color: white;
+  padding: 18.75px 9.375px 9.375px 9.375px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .EStoreTabContainer {
+    width: 185.15625px;
+    height: 73.4375px;
+    border-radius: 15.625px;
+    padding: 18.75px 9.375px 9.375px 9.375px;
+  }
+}
+
+.EStoreTabContainer .Title {
+  font-size: 15.625px;
+  line-height: 17.1875px;
+  color: black;
+  font-weight: 400;
+}
+
+@media (max-width: 1600px) {
+  .EStoreTabContainer .Title {
+    font-size: 15.625px;
+    line-height: 17.1875px;
+  }
+}
+
+.EStoreTabContainer .ScoreDiv {
+  right: 12.5px;
+  bottom: 10.15625px;
+}
+
+@media (max-width: 1600px) {
+  .EStoreTabContainer .ScoreDiv {
+    right: 12.5px;
+    bottom: 10.15625px;
+  }
+}
+
+.EStoreTabContainer .ScoreDiv .Score {
+  font-size: 12.5px;
+  line-height: 13.75px;
+  color: #3B9ADA;
+  font-weight: 500;
+}
+
+.EStoreTabContainer .ScoreDiv .Total {
+  font-size: 7.8125px;
+  line-height: 8.59375px;
+  color: #3B9ADA;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .EStoreTabContainer .ScoreDiv .Total {
+    font-size: 8.59375px;
+    line-height: 8.59375px;
+  }
+}
+
+.Active {
+  background-color: #E6F5FE;
+  border: 1px solid #3B9ADA;
+}
+
+.Active .Title {
+  color: #3B9ADA;
+  font-weight: 600;
+}
+/*# sourceMappingURL=index.module.css.map */

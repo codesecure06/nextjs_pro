@@ -1,0 +1,254 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.DashboardContainer {
+  padding: 16.40625px 50.78125px;
+}
+
+@media (max-width: 1600px) {
+  .DashboardContainer {
+    padding: 28.90625px 50.78125px;
+  }
+}
+
+.HeadingDiv {
+  margin-top: 12.5px;
+}
+
+.SelectDiv {
+  margin-left: 9.375px;
+}
+
+@media (max-width: 1600px) {
+  .SelectDiv {
+    margin-left: 9.375px;
+  }
+}
+
+.SelectDivs {
+  margin-left: 40.625px;
+}
+
+@media (max-width: 1600px) {
+  .SelectDivs {
+    margin-left: 40.625px;
+  }
+}
+
+.DashboardCards {
+  margin-top: 61.34375px;
+}
+
+@media (max-width: 1600px) {
+  .DashboardCards {
+    margin-top: 60.9375px;
+  }
+}
+
+.DashboardCardDiv {
+  margin-right: 67.75781px;
+}
+
+@media (max-width: 1600px) {
+  .DashboardCardDiv {
+    margin-right: 67.1875px;
+  }
+}
+
+.DashboardCardDiv:nth-of-type(1) .ImageDiv {
+  right: -3.89844px;
+  top: -25.40625px;
+  width: 150.98438px;
+}
+
+.DashboardCardDiv:nth-of-type(2) .ImageDiv {
+  right: 13.76562px;
+  top: -51.96875px;
+  width: 109.10156px;
+}
+
+.DashboardCardDiv:nth-of-type(3) .ImageDiv {
+  right: 28.33594px;
+  top: -30.875px;
+  width: 136.71875px;
+}
+
+.DashboardCardContainer {
+  width: 349.42969px;
+  padding: 30.375px 0px 22.07812px 41.19531px;
+  border-radius: 27.34375px;
+  background-color: #CFEBFE;
+  -webkit-box-shadow: 0px 16px 24px rgba(207, 235, 254, 0.6), 0px 2px 6px rgba(207, 235, 254, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 16px 24px rgba(207, 235, 254, 0.6), 0px 2px 6px rgba(207, 235, 254, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .DashboardCardContainer {
+    width: 349.21875px;
+    padding: 29.6875px 0px 21.875px 40.625px;
+    border-radius: 40.625px;
+  }
+}
+
+.ScoreDiv {
+  font-size: 31.25px;
+  line-height: 34.375px;
+  font-weight: 800;
+  color: #09273C;
+}
+
+@media (max-width: 1600px) {
+  .ScoreDiv {
+    font-size: 31.25px;
+  }
+}
+
+.StatusDiv {
+  margin-top: 7.33594px;
+}
+
+.StatusDiv p {
+  color: #09273C;
+  font-size: 15.625px;
+  line-height: 17.1875px;
+}
+
+@media (max-width: 1600px) {
+  .StatusDiv p {
+    font-size: 15.625px;
+  }
+}
+
+.StatusDiv img {
+  width: 14.0625px;
+  margin-left: 2.34375px;
+}
+
+@media (max-width: 1600px) {
+  .StatusDiv img {
+    width: 11.71875px;
+    margin-left: 2.34375px;
+  }
+}
+
+.TitleDiv {
+  margin-top: 39.84375px;
+  font-weight: 500;
+  font-size: 15.625px;
+  line-height: 17.1875px;
+}
+
+.DashboardDetailsDiv {
+  margin-top: 75px;
+}
+
+.DashboardHeading {
+  font-weight: 600;
+  color: #09273C;
+  font-size: 15.625px;
+  line-height: 17.1875px;
+}
+
+.DateDiv {
+  margin-top: 3.90625px;
+}
+
+.DateDiv p {
+  color: #6A7B86;
+  font-size: 10.9375px;
+  line-height: 12.03125px;
+}
+
+.DateDiv img {
+  width: 8.59375px;
+  margin-left: 6.25px;
+}
+
+.ListDiv {
+  margin-top: 45.3125px;
+}
+
+.ListItem {
+  margin-bottom: 15.625px;
+}
+
+.ListItem .BulletImage {
+  width: 15.625px;
+}
+
+.ListItem .ProductName {
+  font-size: 10.9375px;
+  color: #09273C;
+  line-height: 12.03125px;
+}
+
+.ListItem .NumberDiv {
+  font-weight: 600;
+  font-size: 12.5px;
+  margin-left: 4.6875px;
+  line-height: 13.75px;
+}
+
+.ListItem .PercentageDiv {
+  margin-left: 1px;
+}
+
+@media (max-width: 1600px) {
+  .ListItem .PercentageDiv {
+    margin-left: 0.78125px;
+  }
+}
+
+.ListItem .PercentageDiv p {
+  font-size: 10.9375px;
+  line-height: 12.03125px;
+}
+
+.ListItem .PercentageDiv img {
+  width: 8.59375px;
+  margin-left: 1.5625px;
+}
+
+.ProductDetailsCardDiv {
+  margin-top: 28.90625px;
+}
+
+.ProductDetailsCardDiv .ProductDetailsCard {
+  width: 110.9375px;
+  padding: 21.09375px 15.625px 18.75px 15.625px;
+  -webkit-box-shadow: 0px 9px 30px rgba(59, 154, 218, 0.43), 0px 2px 6px rgba(59, 154, 218, 0.4), 0px 0px 1px rgba(59, 154, 218, 0.04);
+          box-shadow: 0px 9px 30px rgba(59, 154, 218, 0.43), 0px 2px 6px rgba(59, 154, 218, 0.4), 0px 0px 1px rgba(59, 154, 218, 0.04);
+  border-radius: 15.625px;
+  background-color: #CFEBFE;
+  margin-right: 26.5625px;
+}
+
+.ProductDetailsCardDiv .ProductDetailsCard p {
+  font-size: 18.75px;
+  font-weight: 600;
+  color: #09273C;
+  line-height: 20.625px;
+}
+
+.ProductDetailsCardDiv .ProductDetailsCard div {
+  margin-top: 32.8125px;
+  font-size: 10.9375px;
+  line-height: 12.03125px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=index.module.css.map */

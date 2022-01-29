@@ -1,0 +1,28 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.NotificationContainer img {
+  width: 32.03125px;
+}
+
+@media (max-width: 1600px) {
+  .NotificationContainer img {
+    width: 32.03125px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,6 @@
+.BlackOpacityDivContainer {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 97;
+}
+/*# sourceMappingURL=index.module.css.map */

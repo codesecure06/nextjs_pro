@@ -1,0 +1,25 @@
+@import '../styles.scss';
+
+.CheckboxContainer{
+    width:con(20);
+    height:con(20);
+    border:con(1) solid $orange;
+    border-radius:con(5);
+    overflow:hidden;
+    @media(max-width:1600px){
+        width:c(20, 1600);
+        height:c(20, 1600);
+        border-radius:c(5, 1600);
+        border:c(1, 1600) solid $orange;
+    }
+    // @media(max-width:1440px){
+    //     width:c(20, 1440);
+    //     height:c(20, 1440);
+    // }
+    input{
+        display:none;
+    }
+}
+.Checked{
+    background-color:$orange;
+}

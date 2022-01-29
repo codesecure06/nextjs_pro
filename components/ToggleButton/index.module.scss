@@ -1,0 +1,58 @@
+@import '../styles.scss';
+
+.ToggleContainer{
+    .ToggleContainerDiv{
+        width:con(53);
+        height:con(28);
+        border-radius:con(27);
+        background-color:$grey;
+        box-shadow:inset 3.24324px 3.24324px 7.2973px rgba(0, 0, 0, 0.2);
+        transition:all 0.2 linear;
+        @media(max-width:1600px){
+            width:c(53, 1600);
+            height:c(28, 1600);
+        }
+    }
+    input{
+        display:none;
+        &:checked + .ToggleContainerDiv{
+            background-color:#56D09A;
+            .Circle{
+                left:con(27);
+                @media(max-width:1600px){
+                    left:c(27, 1600);
+                }
+                // @media(max-width:1440px){
+                //     left:c(27, 1440);
+                // }
+            }
+        }
+    }
+    // @media(max-width:1440px){
+    //     width:c(53, 1440);
+    //     height:c(28, 1440);
+    // }
+    .Circle{
+        width:con(24);
+        height:con(24);
+        border:con(4) solid white;
+        border-radius:50%;
+        left:con(2);
+        top:con(2.3);
+        transition:all 0.2s linear;
+        @media(max-width:1600px){
+            width:c(24, 1600);
+            height:c(24, 1600);
+            left:c(2, 1600);
+            top:c(2.3, 1600);
+            border:c(4, 1600) solid white;
+        }
+        // @media(max-width:1440px){
+        //     width:c(24, 1440);
+        //     height:c(24, 1440);
+        //     left:c(2, 1440);
+        //     top:c(2.3, 1440);
+        //     border:c(4, 1440) solid white;
+        // }
+    }
+}

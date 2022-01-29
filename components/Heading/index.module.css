@@ -1,0 +1,30 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Heading {
+  font-size: 20.3125px;
+  font-weight: 600;
+  line-height: 22.65625px;
+}
+
+@media (max-width: 1600px) {
+  .Heading {
+    font-size: 20.3125px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

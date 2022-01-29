@@ -1,0 +1,203 @@
+@import '../styles.scss';
+
+// .EStoreProductGroupsContainer{
+//     margin-top:con(35);
+//     @media(max-width:1600px){
+//         margin-top:c(35, 1600);
+//     }
+//     // @media(max-width:1440px){
+//     //     margin-top:c(36, 1440);
+//     // }
+// }
+.ProductGroup{
+    width:calc(100% - con(14));
+    height:con(36);
+    padding-left:con(31);
+    border-radius:con(8);
+    background-color:white;
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    margin-top:con(15);
+    margin-left:con(7);
+    margin-right:con(7);
+    @media(max-width:1600px){
+        width:calc(100% - c(14, 1600));
+        height:c(36, 1600);
+        padding-left:c(31, 1600);
+        border-radius:c(8, 1600);
+        margin-top:c(15, 1600);
+        margin-left:c(7, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(250, 1440);
+    //     height:c(36, 1440);
+    // }
+    p{
+        font-size:con(14);
+        font-weight:500;
+        color:$black;
+        @media(max-width:1600px){
+            font-size:c(14, 1600);
+        }
+        // @media(max-width:1440px){
+        //     font-size:c(14, 1440);
+        // }
+        &:hover + .ProductsPopup{
+            display:block;
+            opacity:1;
+        }
+    }
+}
+.ActiveProductGroup{
+    width:100%;
+    border-radius:con(8);
+    box-shadow:$box_shadow;
+    padding:con(15) con(12.5) con(7) 0px;
+    margin-top:con(15);
+    @media(max-width:1600px){
+        width:100%;
+        padding:c(15, 1600) c(12, 1600) c(10, 1600) 0px;
+        margin-top:c(15, 1600);
+        border-radius:c(8, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(264, 1440);
+    //     padding:c(15, 1440) c(12, 1440) c(10, 1440) 0px;
+    //     margin-top:c(15, 1440);
+    // }
+    .Title{
+        margin-left:con(32);
+        @media(max-width:1600px){
+            margin-left:c(32, 1600);
+        }
+        // @media(max-width:1440px){
+        //     margin-left:c(32, 1440);
+        // }
+        p{
+            font-size:con(20);
+            line-height:con(22);
+            font-weight:600;
+            margin-right:con(7);
+            color:$blue;
+            @media(max-width:1600px){
+                font-size:c(20, 1600);
+                margin-right:c(7, 1600);
+                line-height:c(12, 1600);
+            }
+            // @media(max-width:1440px){
+            //     font-size:c(20, 1440);
+            //     margin-right:c(7, 1440);
+            // }
+        }
+        img{
+            width:con(10);
+        }
+    }
+    .EditDiv{
+        img{
+            width:con(20);
+            @media(max-width:1600px){
+                width:c(20, 1600);
+            }
+            // @media(max-width:1440px){
+            //     width:c(20, 1440);
+            // }
+        }
+    }
+    .ProductsDiv{
+        margin-left:con(40);
+        border-left:con(1) solid $blue;
+        padding-left:con(10);
+        margin-top:con(10);
+        @media(max-width:1600px){
+            margin-left:c(40, 1600);
+            border-left:c(1, 1600) solid $blue;
+            margin-top:c(10, 1600);
+            padding-left:c(10, 1600);
+        }
+        // @media(max-width:1440px){
+        //     margin-left:c(40, 1440);
+        //     padding-left:c(10, 1440);
+        // }
+        .Product{
+            p{
+                font-size:con(14);
+                font-weight:500;
+                color:$grey;
+                line-height:con(23.8);
+                margin-bottom:con(10);
+                @media(max-width:1600px){
+                    font-size:c(14, 1600);
+                    line-height:c(23.8, 1600);
+                   margin-bottom:c(10, 1600); 
+                }
+                // @media(max-width:1440px){
+                //     font-size:c(14, 1440);
+                // }
+            }
+        }
+        .ActiveProduct{
+            p{
+                color:$blue;
+            }
+        }
+    }
+}
+.ProductsPopup{
+    display:none;
+    width:198px;
+    background-color:rgba(128, 128, 128, 0.9);
+    padding:12px 16px;
+    border-radius:10px;
+    z-index:95;
+    opacity:0;
+    transition:all 0.2s ease-in-out;
+    @media(max-width:1600px){
+        width:c(198, 1600);
+        padding:c(12, 1600) c(16, 1600);
+        border-radius:c(10, 1600);
+    }
+    // @media(max-width:1440px){
+    //     width:c(198, 1440);
+    //     padding:c(12, 1440) c(16, 1440);
+    //     border-radius:c(10, 1440);
+    // }
+    .Products{
+        border-left:1px solid white;
+        .Product{
+            margin-left:16px;
+            @media(max-width:1600px){
+                margin-left:c(16, 1600);
+            }
+            // @media(max-width:1440px){
+            //     margin-left:c(16, 1440);
+            // }
+            p{
+                color:white;
+                font-size:14px;
+                @media(max-width:1600px){
+                    font-size:c(14, 1600);
+                }
+                // @media(max-width:1440px){
+                //     font-size:c(14, 1440);
+                // }
+            }
+        }
+    }
+}
+.SearchTagsDiv{
+    padding:0px con(5);
+    button{
+        height:con(28.71);
+        padding:0px con(10);
+        border-radius:con(44);
+        border:con(1) solid rgba(106, 123, 134, 0.2);
+        margin-bottom:con(10);
+        font-size:con(13.39);
+        line-height:con(14.74);
+        color:$grey;
+    }
+    .Active{
+        color:$blue;
+        border:1px solid $blue;
+    }
+}

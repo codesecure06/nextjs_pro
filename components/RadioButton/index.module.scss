@@ -1,0 +1,30 @@
+@import '../styles.scss';
+
+.LabelContainer{
+    width:con(20);
+    height:con(20);
+    border:con(3) solid #F7941D;
+    border-radius:50%;
+    input{
+        display:none;
+        &:checked + .CheckedCircle{
+            display:block;
+        }
+    }
+    @media(max-width:1600px){
+        width:c(20, 1600);
+        height:c(20, 1600);
+        border:c(3, 1600) solid #F7941D;
+    }
+}
+.CheckedCircle{
+    display:none;
+    width:con(10);
+    height:con(10);
+    background-color:#F7941D;
+    border-radius:50%;
+    @media(max-width:1600px){
+        width:c(10, 1600);
+        height:c(10, 1600);
+    }
+}

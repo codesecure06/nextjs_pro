@@ -1,0 +1,37 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.PrimaryButtonContainer {
+  padding: 0px 7.8125px;
+  border-radius: 6.25px;
+  height: 39.0625px;
+  min-width: 148.4375px;
+  font-size: 15.625px;
+  line-height: 17.1875px;
+  font-weight: 500;
+}
+
+.PrimaryButton {
+  background-color: #3B9ADA;
+  color: white;
+}
+
+.SecondaryButton {
+  color: #09273C;
+}
+/*# sourceMappingURL=index.module.css.map */

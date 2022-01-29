@@ -1,0 +1,61 @@
+@import '../styles.scss';
+
+.EStoreTabContainer{
+    width:con(237);
+    height:con(9);
+    border-radius:con(20);
+    background-color:white;
+    padding:con(24) con(12) con(12) con(12);
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    @media(max-width:1600px){
+        width:c(237, 1600);
+        height:c(94, 1600);
+        border-radius:c(20, 1600);
+        padding:c(24, 1600) c(12, 1600) c(12, 1600) c(12, 1600);
+    }
+    .Title{
+        font-size:con(20);
+        line-height:con(22);
+        color:black;
+        font-weight:400;
+        @media(max-width:1600px){
+            font-size:c(20, 1600);
+            line-height:c(22, 1600);
+        }
+    }
+    .ScoreDiv{
+        right:con(16);
+        bottom:con(13);
+        @media(max-width:1600px){
+            right:c(16, 1600);
+            bottom:c(13, 1600);
+        }
+        .Score{
+            font-size:con(16);
+            line-height:con(17.6);
+            color:$blue;
+            font-weight:500;
+            // @media(max-width:1600px){
+            //     font-size:c(16, 1600);
+            // }
+        }
+        .Total{
+            font-size:con(10);
+            line-height:con(11);
+            color:$blue;
+            font-weight:500;
+            @media(max-width:1600px){
+                font-size:c(11, 1600);
+                line-height:c(11, 1600);
+            }
+        }
+    }
+}
+.Active{
+    background-color:$very_light_blue;
+    border:1px solid $blue;
+    .Title{
+        color:$blue;
+        font-weight:600;
+    }
+}

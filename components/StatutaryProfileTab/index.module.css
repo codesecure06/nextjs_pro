@@ -1,0 +1,132 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.StatutaryProfileContainer {
+  width: 375px;
+  height: 375px;
+  border-radius: 9.375px;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  padding: 40px;
+  margin-right: 39.0625px;
+  margin-top: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer {
+    width: 375px;
+    height: 375px;
+    border-radius: 9.375px;
+    padding: 31.25px;
+    margin-right: 39.0625px;
+  }
+}
+
+.StatutaryProfileContainer .Heading {
+  font-size: 15.625px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .Heading {
+    font-size: 15.625px;
+  }
+}
+
+.StatutaryProfileContainer .ToggleDiv:hover p {
+  display: block;
+}
+
+.StatutaryProfileContainer .ToggleDiv p {
+  display: none;
+  margin-right: 7.8125px;
+  font-size: 12.5px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .ToggleDiv p {
+    margin-right: 7.8125px;
+    font-size: 12.5px;
+  }
+}
+
+.StatutaryProfileContainer .UploadDiv {
+  width: 313.28125px;
+  height: 204.6875px;
+  border-radius: 7.8125px;
+  background-color: #FAFAFA;
+  margin-top: 15.625px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .UploadDiv {
+    width: 313.28125px;
+    height: 204.6875px;
+    margin-top: 15.625px;
+  }
+}
+
+.StatutaryProfileContainer .UploadDiv img {
+  width: 23.4375px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .UploadDiv img {
+    width: 23.4375px;
+  }
+}
+
+.StatutaryProfileContainer .UploadDiv p {
+  font-size: 12.5px;
+  margin-left: 7.8125px;
+  color: #B4BDC3;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .UploadDiv p {
+    font-size: 12.5px;
+    margin-left: 7.8125px;
+  }
+}
+
+.StatutaryProfileContainer .UploadDiv .CameraIcon {
+  right: 15.625px;
+  bottom: 7.8125px;
+  width: 23.4375px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .UploadDiv .CameraIcon {
+    right: 15.625px;
+    bttom: 7.8125px;
+    width: 23.4375px;
+  }
+}
+
+.StatutaryProfileContainer .InputDiv {
+  margin-top: 31.25px;
+}
+
+@media (max-width: 1600px) {
+  .StatutaryProfileContainer .InputDiv {
+    margin-top: 31.25px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

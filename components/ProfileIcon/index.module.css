@@ -1,0 +1,173 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ProfileImageDiv {
+  width: 39.0625px;
+  height: 39.0625px;
+  border-radius: 50%;
+  border: 1.5625px solid #F7941D;
+}
+
+@media (max-width: 1600px) {
+  .ProfileImageDiv {
+    width: 39.0625px;
+    height: 39.0625px;
+    border: 1.5625px solid #F7941D;
+  }
+}
+
+.ProfileImageDiv div {
+  width: 31.25px;
+  height: 31.25px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+  .ProfileImageDiv div {
+    width: 31.25px;
+    height: 31.25px;
+  }
+}
+
+.MenuProfileImageDiv {
+  width: 78.125px;
+  height: 78.125px;
+  border-radius: 50%;
+  border: 1.5625px solid #F7941D;
+}
+
+@media (max-width: 1600px) {
+  .MenuProfileImageDiv {
+    width: 78.125px;
+    height: 78.125px;
+    border: 1.5625px solid #F7941D;
+  }
+}
+
+.MenuProfileImageDiv div {
+  width: 62.5px;
+  height: 62.5px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+  .MenuProfileImageDiv div {
+    width: 62.5px;
+    height: 62.5px;
+  }
+}
+
+.ProfileMenu {
+  width: 334.375px;
+  padding-top: 28.125px;
+  border-radius: 13.28125px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  top: 87.5px;
+  right: -334.375px;
+  max-height: calc(100% - con(132));
+}
+
+@media (max-width: 1600px) {
+  .ProfileMenu {
+    width: 334.375px;
+    right: -334.375px;
+    padding-top: 28.125px;
+    top: 87.5px;
+    border-radius: 13.28125px;
+    max-height: calc(100% - c(132, 1600));
+  }
+}
+
+.ProfileMenu .RatingDiv {
+  margin-top: 5.46875px;
+}
+
+.ProfileMenuDiv {
+  padding: 14.0625px 0px;
+}
+
+@media (max-width: 1600px) {
+  .ProfileMenuDiv {
+    padding: 14.0625px 0px;
+  }
+}
+
+.DetailsDiv {
+  margin-top: 7.8125px;
+  padding-bottom: 15.625px;
+  border-bottom: 0.39062px solid rgba(68, 68, 68, 0.5);
+}
+
+@media (max-width: 1600px) {
+  .DetailsDiv {
+    margin-top: 7.8125px;
+    padding-bottom: 15.625px;
+  }
+}
+
+.DetailsDiv .NameDiv {
+  color: #09273C;
+  font-size: 18.75px;
+  font-weight: 500;
+}
+
+@media (max-width: 1600px) {
+  .DetailsDiv .NameDiv {
+    font-size: 18.75px;
+  }
+}
+
+.DetailsDiv .EmailDiv {
+  color: rgba(9, 39, 60, 0.8);
+  font-size: 12.5px;
+  margin-top: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .DetailsDiv .EmailDiv {
+    font-size: 12.5px;
+    margin-top: 7.8125px;
+  }
+}
+
+.DetailsDiv .PhoneNumberDiv {
+  color: rgba(9, 39, 60, 0.8);
+  font-size: 12.5px;
+  margin-top: 7.8125px;
+}
+
+@media (max-width: 1600px) {
+  .DetailsDiv .PhoneNumberDiv {
+    font-size: 12.5px;
+    margin-top: 7.8125px;
+  }
+}
+
+.SignOutDiv {
+  padding: 25px;
+  border-top: 0.39062px solid rgba(68, 68, 68, 0.5);
+}
+
+@media (max-width: 1600px) {
+  .SignOutDiv {
+    padding: 25px;
+    border-top: 0.39062px solid rgba(68, 68, 68, 0.5);
+  }
+}
+/*# sourceMappingURL=index.module.css.map */
